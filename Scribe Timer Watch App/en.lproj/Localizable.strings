@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Edit";
+"KEY_DONE" = "Done";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+
+"KEY_SETTINGS" = "Settings";
+"KEY_ALARM_VIBRATION" = "Alarm Vibration";
+
+"KEY_ERROR_STOREKIT" = "Error";
+"KEY_RESTORATION" = "Restore";
+
+"KEY_ALEART_24OVER" = "Timers longer than 24 hours cannot be set.";
+
+"KEY_CANCEL" = "Cancel";
+"KEY_END" = "End";
+
+"KEY_TIMERSHAPE" = "Timer Design";
+"KEY_CIRCLE" = "Circle";
+"KEY_STAR" = "Star";
+"KEY_HEART" = "Heart";
+
+"KEY_PRIMARYCOLOR" = "Theme Color";
+"KEY_COLOR" = "Color";
+"KEY_CYAN" = "Cyan";
+"KEY_BLUE" = "Blue";
+"KEY_PURPLE" = "Purple";
+"KEY_PINK" = "Pink";
+"KEY_RED" = "Red";
+"KEY_ORANGE" = "Orange";
+"KEY_YELLOW" = "Yellow";
+"KEY_YELLOWGREEN" = "Yellow Green";
+"KEY_GREEN" = "Green";

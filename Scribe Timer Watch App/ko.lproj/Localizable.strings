@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "타이머";
+"KEY_EDDIT" = "편집";
+"KEY_DONE" = "완료";
+"KEY_START" = "시작";
+
+"KEY_HOURS" = "시간";
+"KEY_MINUTES" = "분";
+"KEY_SECONDS" = "초";
+
+"KEY_SETTINGS" = "설정";
+"KEY_ALARM_VIBRATION" = "알람 진동";
+
+"KEY_ERROR_STOREKIT" = "오류";
+"KEY_RESTORATION" = "복원";
+
+"KEY_ALEART_24OVER" = "24시간을 초과하는 타이머는 설정할 수 없습니다.";
+
+"KEY_CANCEL" = "취소";
+"KEY_END" = "종료";
+
+"KEY_TIMERSHAPE" = "타이머 디자인";
+"KEY_CIRCLE" = "원형";
+"KEY_STAR" = "별";
+"KEY_HEART" = "하트";
+
+"KEY_PRIMARYCOLOR" = "테마 색상";
+"KEY_COLOR" = "색상";
+"KEY_CYAN" = "시안";
+"KEY_BLUE" = "파랑";
+"KEY_PURPLE" = "보라";
+"KEY_PINK" = "분홍";
+"KEY_RED" = "빨강";
+"KEY_ORANGE" = "주황";
+"KEY_YELLOW" = "노랑";
+"KEY_YELLOWGREEN" = "연두";
+"KEY_GREEN" = "초록";

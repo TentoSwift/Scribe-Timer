@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "タイマー";
+"KEY_EDDIT" = "編集";
+"KEY_DONE" = "完了";
+"KEY_START" = "スタート";
+
+"KEY_HOURS" = "時間";
+"KEY_MINUTES" = "分";
+"KEY_SECONDS" = "秒";
+
+"KEY_SETTINGS" = "設定";
+"KEY_ALARM_VIBRATION" = "アラームの振動";
+"KEY_VIBRATION" = "振動";
+"KEY_INPUTDELAY" = "認識間隔";
+"KEY_DELAY" = "間隔";
+"KEY_ERROR_STOREKIT" = "エラー";
+"KEY_RESTORATION" = "復元";
+
+"KEY_ALEART_24OVER" = "24時間を超えるタイマーは設定できません。";
+
+"KEY_CANCEL" = "キャンセル";
+"KEY_END" = "終了";
+
+"KEY_TIMERSHAPE" = "タイマーのデザイン";
+"KEY_DESIGHN" = "デザイン";
+"KEY_CIRCLE" = "サークル";
+"KEY_STAR" = "スター";
+"KEY_HEART" = "ハート";
+
+"KEY_DEFAULT" = "デフォルト";
+"KEY_WEAK" = "弱い";
+"KEY_STRESS" = "強弱";
+
+"KEY_PRIMARYCOLOR" = "テーマカラー";
+"KEY_COLOR" = "カラー";
+"KEY_CYAN" = "シアン";
+"KEY_BLUE" = "ブルー";
+"KEY_PURPLE" = "パープル";
+"KEY_PINK" = "ピンク";
+"KEY_RED" = "レッド";
+"KEY_ORANGE" = "オレンジ";
+"KEY_YELLOW" = "イエロー";
+"KEY_YELLOWGREEN" = "黄緑";
+"KEY_GREEN" = "グリーン";

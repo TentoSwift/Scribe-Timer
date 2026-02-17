@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "計時器";
+"KEY_EDDIT" = "編輯";
+"KEY_DONE" = "完成";
+"KEY_START" = "開始";
+
+"KEY_HOURS" = "小時";
+"KEY_MINUTES" = "分鐘";
+"KEY_SECONDS" = "秒";
+
+"KEY_SETTINGS" = "設定";
+"KEY_ALARM_VIBRATION" = "鬧鐘震動";
+
+"KEY_ERROR_STOREKIT" = "錯誤";
+"KEY_RESTORATION" = "回復";
+
+"KEY_ALEART_24OVER" = "不能設定超過24小時的計時器。";
+
+"KEY_CANCEL" = "取消";
+"KEY_END" = "結束";
+
+"KEY_TIMERSHAPE" = "計時器設計";
+"KEY_CIRCLE" = "圓形";
+"KEY_STAR" = "星形";
+"KEY_HEART" = "愛心";
+
+"KEY_PRIMARYCOLOR" = "主題顏色";
+"KEY_COLOR" = "顏色";
+"KEY_CYAN" = "青色";
+"KEY_BLUE" = "藍色";
+"KEY_PURPLE" = "紫色";
+"KEY_PINK" = "粉紅色";
+"KEY_RED" = "紅色";
+"KEY_ORANGE" = "橙色";
+"KEY_YELLOW" = "黃色";
+"KEY_YELLOWGREEN" = "黃綠色";
+"KEY_GREEN" = "綠色";

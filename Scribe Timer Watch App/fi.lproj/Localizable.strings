@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "Ajastin";
+"KEY_EDDIT" = "Muokkaa";
+"KEY_DONE" = "Valmis";
+"KEY_START" = "Käynnistä";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+
+"KEY_SETTINGS" = "Asetukset";
+"KEY_ALARM_VIBRATION" = "Hälytyksen värinä";
+
+"KEY_ERROR_STOREKIT" = "Virhe";
+"KEY_RESTORATION" = "Palauta";
+
+"KEY_ALEART_24OVER" = "Yli 24 tunnin ajastinta ei voi asettaa.";
+
+"KEY_CANCEL" = "Peruuta";
+"KEY_END" = "Lopeta";
+
+"KEY_TIMERSHAPE" = "Ajastimen muotoilu";
+"KEY_CIRCLE" = "Ympyrä";
+"KEY_STAR" = "Tähti";
+"KEY_HEART" = "Sydän";
+
+"KEY_PRIMARYCOLOR" = "Teemaväri";
+"KEY_COLOR" = "Väri";
+"KEY_CYAN" = "Syaani";
+"KEY_BLUE" = "Sininen";
+"KEY_PURPLE" = "Violetti";
+"KEY_PINK" = "Vaaleanpunainen";
+"KEY_RED" = "Punainen";
+"KEY_ORANGE" = "Oranssi";
+"KEY_YELLOW" = "Keltainen";
+"KEY_YELLOWGREEN" = "Keltaisen vihreä";
+"KEY_GREEN" = "Vihreä";

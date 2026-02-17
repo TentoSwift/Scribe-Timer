@@ -1,0 +1,46 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Created by 石野天斗 on 2026/02/11.
+  
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_TIMER" = "Χρονόμετρο";
+"KEY_EDDIT" = "Επεξεργασία";
+"KEY_DONE" = "Τέλος";
+"KEY_START" = "Έναρξη";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+
+"KEY_SETTINGS" = "Ρυθμίσεις";
+"KEY_ALARM_VIBRATION" = "Δόνηση συναγερμού";
+
+"KEY_ERROR_STOREKIT" = "Σφάλμα";
+"KEY_RESTORATION" = "Επαναφορά";
+
+"KEY_ALEART_24OVER" = "Δεν μπορείτε να ορίσετε χρονόμετρο πάνω από 24 ώρες.";
+
+"KEY_CANCEL" = "Ακύρωση";
+"KEY_END" = "Λήξη";
+
+"KEY_TIMERSHAPE" = "Σχεδιασμός χρονόμετρου";
+"KEY_CIRCLE" = "Κύκλος";
+"KEY_STAR" = "Αστέρι";
+"KEY_HEART" = "Καρδιά";
+
+"KEY_PRIMARYCOLOR" = "Χρώμα θέματος";
+"KEY_COLOR" = "Χρώμα";
+"KEY_CYAN" = "Κυανό";
+"KEY_BLUE" = "Μπλε";
+"KEY_PURPLE" = "Μωβ";
+"KEY_PINK" = "Ροζ";
+"KEY_RED" = "Κόκκινο";
+"KEY_ORANGE" = "Πορτοκαλί";
+"KEY_YELLOW" = "Κίτρινο";
+"KEY_YELLOWGREEN" = "Κιτρινοπράσινο";
+"KEY_GREEN" = "Πράσινο";
