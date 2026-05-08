@@ -4,6 +4,10 @@
 
 [App Store からダウンロード](https://apps.apple.com/jp/app/scribe-timer/id6759303566)
 
+## デモ
+
+https://github.com/user-attachments/assets/ab478561-a83c-4bd8-b9fa-9e847a91c306
+
 ## 特徴
 
 - **手書き入力**：画面に数字を一桁ずつ書くだけでタイマー時間を設定（CoreML / MNIST による数字認識）
