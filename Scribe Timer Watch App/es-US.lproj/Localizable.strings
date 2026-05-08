@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Spanish (United States) Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Bienvenido a\nScribe Timer";
+"KEY_INTRODUCTION" = "Configura fácilmente un temporizador.";
+"KEY_ONBORDING1" = "Ingresa números.";
+"KEY_ONBORDING2" = "Ingresa los números uno por uno.";
+"KEY_ONBORDING3" = "Toca dos veces para iniciar el temporizador.";
+"KEY_START_ONBORDING" = "Comenzar";
+"KEY_NEXT" = "Siguiente";
+"KEY_DONTNOW" = "Ahora no";
+"KEY_INTRODUCTION_FUNCTION" = "Presentación de funciones";
+"KEY_CAN_CHANGE_COLOR" = "Cambiar el color del tema";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Cambiar el diseño del temporizador";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Cambiar la vibración del temporizador";
+"KEY_CAN_WIDGET_TIMER" = "Mostrar el temporizador en el widget";
+"KEY_CAN_CHANGE_DELAY" = "Ajustar el tiempo de reconocimiento de entrada";
+
+"KEY_TIMER" = "Temporizador";
+"KEY_EDDIT" = "Editar";
+"KEY_DONE" = "Listo";
+"KEY_START" = "Iniciar";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Horas";
+"KEY_MINUTES_LONG" = "Minutos";
+"KEY_SECONDS_LONG" = "Segundos";
+
+"KEY_SETTINGS" = "Configuración";
+"KEY_HOWTO" = "Cómo usar";
+"KEY_PURCHASED" = "Ya comprado";
+"KEY_TIMER_VIBRATION" = "Vibración del temporizador";
+"KEY_VIBRATION" = "Vibración";
+"KEY_INPUTDELAY" = "Intervalo de reconocimiento";
+"KEY_DELAY" = "Intervalo";
+"KEY_ERROR_STOREKIT" = "Error";
+"KEY_RESTORATION" = "Restaurar";
+
+"KEY_ALEART_24OVER" = "No se puede configurar un temporizador de más de 24 horas.";
+
+"KEY_CANCEL" = "Cancelar";
+"KEY_END" = "Fin";
+
+"KEY_TIMERSHAPE" = "Diseño del temporizador";
+"KEY_DESIGHN" = "Diseño";
+"KEY_CIRCLE" = "Círculo";
+"KEY_STAR" = "Estrella";
+"KEY_HEART" = "Corazón";
+
+"KEY_DEFAULT" = "Predeterminado";
+"KEY_WEAK" = "Suave";
+"KEY_STRESS" = "Fuerte";
+"KEY_STOP" = "Detener";
+"KEY_MIX" = "Mixto";
+"KEY_RETRY" = "Rápido";
+
+"KEY_PRIMARYCOLOR" = "Color del tema";
+"KEY_COLOR" = "Color";
+"KEY_CYAN" = "Cian";
+"KEY_BLUE" = "Azul";
+"KEY_PURPLE" = "Morado";
+"KEY_PINK" = "Rosa";
+"KEY_RED" = "Rojo";
+"KEY_ORANGE" = "Naranja";
+"KEY_YELLOW" = "Amarillo";
+"KEY_YELLOWGREEN" = "Amarillo verdoso";
+"KEY_GREEN" = "Verde";

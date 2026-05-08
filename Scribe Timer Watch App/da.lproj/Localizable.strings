@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Danish Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Velkommen til\nScribe Timer";
+"KEY_INTRODUCTION" = "Indstil nemt en timer.";
+"KEY_ONBORDING1" = "Indtast tal.";
+"KEY_ONBORDING2" = "Indtast tallene ét ciffer ad gangen.";
+"KEY_ONBORDING3" = "Dobbelttryk for at starte timeren.";
+"KEY_START_ONBORDING" = "Kom i gang";
+"KEY_NEXT" = "Næste";
+"KEY_DONTNOW" = "Ikke nu";
+"KEY_INTRODUCTION_FUNCTION" = "Introduktion til funktioner";
+"KEY_CAN_CHANGE_COLOR" = "Skift temafarve";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Skift timerdesign";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Skift timervibration";
+"KEY_CAN_WIDGET_TIMER" = "Vis timer i widget";
+"KEY_CAN_CHANGE_DELAY" = "Justér genkendelsestid for input";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Rediger";
+"KEY_DONE" = "Færdig";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "t";
+"KEY_MINUTES" = "m";
+"KEY_SECONDS" = "s";
+"KEY_HOURS_LONG" = "Timer";
+"KEY_MINUTES_LONG" = "Minutter";
+"KEY_SECONDS_LONG" = "Sekunder";
+
+"KEY_SETTINGS" = "Indstillinger";
+"KEY_HOWTO" = "Sådan bruges";
+"KEY_PURCHASED" = "Allerede købt";
+"KEY_TIMER_VIBRATION" = "Timervibration";
+"KEY_VIBRATION" = "Vibration";
+"KEY_INPUTDELAY" = "Genkendelsesforsinkelse henviser til tiden mellem at tegne et tal, at det indtastes, og at det forsvinder fra skærmen.";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Fejl";
+"KEY_RESTORATION" = "Gendan";
+
+"KEY_ALEART_24OVER" = "Det er ikke muligt at indstille en timer over 24 timer.";
+
+"KEY_CANCEL" = "Annuller";
+"KEY_END" = "Afslut";
+
+"KEY_TIMERSHAPE" = "Timerdesign";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Cirkel";
+"KEY_STAR" = "Stjerne";
+"KEY_HEART" = "Hjerte";
+
+"KEY_DEFAULT" = "Standard";
+"KEY_WEAK" = "Blid";
+"KEY_STRESS" = "Stærk";
+"KEY_STOP" = "Stop";
+"KEY_MIX" = "Blandet";
+"KEY_RETRY" = "Hurtig";
+
+"KEY_PRIMARYCOLOR" = "Temafarve";
+"KEY_COLOR" = "Farve";
+"KEY_CYAN" = "Cyan";
+"KEY_BLUE" = "Blå";
+"KEY_PURPLE" = "Lilla";
+"KEY_PINK" = "Pink";
+"KEY_RED" = "Rød";
+"KEY_ORANGE" = "Orange";
+"KEY_YELLOW" = "Gul";
+"KEY_YELLOWGREEN" = "Gulgrøn";
+"KEY_GREEN" = "Grøn";

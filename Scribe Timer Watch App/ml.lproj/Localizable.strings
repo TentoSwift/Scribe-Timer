@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Malayalam Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer ലേക്ക്\nസ്വാഗതം";
+"KEY_INTRODUCTION" = "ടൈമർ എളുപ്പത്തിൽ സജ്ജീകരിക്കുക.";
+"KEY_ONBORDING1" = "അക്കങ്ങൾ നൽകുക.";
+"KEY_ONBORDING2" = "അക്കങ്ങൾ ഓരോ അക്കമായി നൽകുക.";
+"KEY_ONBORDING3" = "ടൈമർ ആരംഭിക്കാൻ ഡബിൾ ടാപ്പ് ചെയ്യുക.";
+"KEY_START_ONBORDING" = "ആരംഭിക്കുക";
+"KEY_NEXT" = "അടുത്തത്";
+"KEY_DONTNOW" = "ഇപ്പോൾ വേണ്ട";
+"KEY_INTRODUCTION_FUNCTION" = "വിശേഷതകളുടെ പരിചയം";
+"KEY_CAN_CHANGE_COLOR" = "തീം നിറം മാറ്റുക";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "ടൈമർ ഡിസൈൻ മാറ്റുക";
+
+"KEY_CAN_CHANGE_VIBERATION" = "ടൈമർ വൈബ്രേഷൻ മാറ്റുക";
+"KEY_CAN_WIDGET_TIMER" = "വിഡ്ജറ്റിൽ ടൈമർ കാണിക്കുക";
+"KEY_CAN_CHANGE_DELAY" = "ഇൻപുട്ട് തിരിച്ചറിയൽ സമയം ക്രമീകരിക്കുക";
+
+"KEY_TIMER" = "ടൈമർ";
+"KEY_EDDIT" = "എഡിറ്റ്";
+"KEY_DONE" = "പൂർത്തിയായി";
+"KEY_START" = "ആരംഭിക്കുക";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "മണിക്കൂർ";
+"KEY_MINUTES_LONG" = "മിനിറ്റ്";
+"KEY_SECONDS_LONG" = "സെക്കന്റ്";
+
+"KEY_SETTINGS" = "ക്രമീകരണങ്ങൾ";
+"KEY_HOWTO" = "എങ്ങനെ ഉപയോഗിക്കാം";
+"KEY_PURCHASED" = "ഇതിനകം വാങ്ങിയിരിക്കുന്നു";
+"KEY_TIMER_VIBRATION" = "ടൈമർ വൈബ്രേഷൻ";
+"KEY_VIBRATION" = "വൈബ്രേഷൻ";
+"KEY_INPUTDELAY" = "തിരിച്ചറിയൽ ഇടവേള";
+"KEY_DELAY" = "ഇടവേള";
+"KEY_ERROR_STOREKIT" = "പിശക്";
+"KEY_RESTORATION" = "പുനഃസ്ഥാപിക്കുക";
+
+"KEY_ALEART_24OVER" = "24 മണിക്കൂറിൽ കൂടുതലുള്ള ടൈമർ സജ്ജീകരിക്കാൻ കഴിയില്ല.";
+
+"KEY_CANCEL" = "റദ്ദാക്കുക";
+"KEY_END" = "END";
+
+"KEY_TIMERSHAPE" = "ടൈമർ ഡിസൈൻ";
+"KEY_DESIGHN" = "ഡിസൈൻ";
+"KEY_CIRCLE" = "വൃത്തം";
+"KEY_STAR" = "നക്ഷത്രം";
+"KEY_HEART" = "ഹൃദയം";
+
+"KEY_DEFAULT" = "ഡിഫോൾട്ട്";
+"KEY_WEAK" = "മൃദു";
+"KEY_STRESS" = "ശക്തമായ";
+"KEY_STOP" = "നിർത്തുക";
+"KEY_MIX" = "മിശ്രിതം";
+"KEY_RETRY" = "വേഗം";
+
+"KEY_PRIMARYCOLOR" = "തീം നിറം";
+"KEY_COLOR" = "നിറം";
+"KEY_CYAN" = "സിയാൻ";
+"KEY_BLUE" = "നീല";
+"KEY_PURPLE" = "ജാംബളി";
+"KEY_PINK" = "പിങ്ക്";
+"KEY_RED" = "ചുവപ്പ്";
+"KEY_ORANGE" = "ഓറഞ്ച്";
+"KEY_YELLOW" = "മഞ്ഞ";
+"KEY_YELLOWGREEN" = "മഞ്ഞ-പച്ച";
+"KEY_GREEN" = "പച്ച";

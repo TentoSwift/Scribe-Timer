@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Malay Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Selamat datang ke\nScribe Timer";
+"KEY_INTRODUCTION" = "Tetapkan pemasa dengan mudah.";
+"KEY_ONBORDING1" = "Masukkan nombor.";
+"KEY_ONBORDING2" = "Masukkan nombor satu digit pada satu masa.";
+"KEY_ONBORDING3" = "Ketik dua kali untuk memulakan pemasa.";
+"KEY_START_ONBORDING" = "Mula";
+"KEY_NEXT" = "Seterusnya";
+"KEY_DONTNOW" = "Bukan sekarang";
+"KEY_INTRODUCTION_FUNCTION" = "Pengenalan Ciri";
+"KEY_CAN_CHANGE_COLOR" = "Tukar warna tema";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Tukar reka bentuk pemasa";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Tukar getaran pemasa";
+"KEY_CAN_WIDGET_TIMER" = "Paparkan pemasa dalam widget";
+"KEY_CAN_CHANGE_DELAY" = "Laraskan masa pengecaman input";
+
+"KEY_TIMER" = "Pemasa";
+"KEY_EDDIT" = "Edit";
+"KEY_DONE" = "Selesai";
+"KEY_START" = "Mula";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Jam";
+"KEY_MINUTES_LONG" = "Minit";
+"KEY_SECONDS_LONG" = "Saat";
+
+"KEY_SETTINGS" = "Tetapan";
+"KEY_HOWTO" = "Cara Menggunakan";
+"KEY_PURCHASED" = "Sudah Dibeli";
+"KEY_TIMER_VIBRATION" = "Getaran Pemasa";
+"KEY_VIBRATION" = "Getaran";
+"KEY_INPUTDELAY" = "Selang Pengecaman";
+"KEY_DELAY" = "Selang";
+"KEY_ERROR_STOREKIT" = "Ralat";
+"KEY_RESTORATION" = "Pulihkan";
+
+"KEY_ALEART_24OVER" = "Pemasa melebihi 24 jam tidak boleh ditetapkan.";
+
+"KEY_CANCEL" = "Batal";
+"KEY_END" = "Tamat";
+
+"KEY_TIMERSHAPE" = "Reka Bentuk Pemasa";
+"KEY_DESIGHN" = "Reka Bentuk";
+"KEY_CIRCLE" = "Bulatan";
+"KEY_STAR" = "Bintang";
+"KEY_HEART" = "Hati";
+
+"KEY_DEFAULT" = "Lalai";
+"KEY_WEAK" = "Lembut";
+"KEY_STRESS" = "Kuat";
+"KEY_STOP" = "Henti";
+"KEY_MIX" = "Campuran";
+"KEY_RETRY" = "Pantas";
+
+"KEY_PRIMARYCOLOR" = "Warna Tema";
+"KEY_COLOR" = "Warna";
+"KEY_CYAN" = "Sian";
+"KEY_BLUE" = "Biru";
+"KEY_PURPLE" = "Ungu";
+"KEY_PINK" = "Merah Jambu";
+"KEY_RED" = "Merah";
+"KEY_ORANGE" = "Oren";
+"KEY_YELLOW" = "Kuning";
+"KEY_YELLOWGREEN" = "Kuning-Hijau";
+"KEY_GREEN" = "Hijau";

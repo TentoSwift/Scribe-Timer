@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Ukrainian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Ласкаво просимо до\nScribe Timer";
+"KEY_INTRODUCTION" = "Легко налаштуйте таймер.";
+"KEY_ONBORDING1" = "Введіть числа.";
+"KEY_ONBORDING2" = "Вводьте числа по одній цифрі.";
+"KEY_ONBORDING3" = "Двічі торкніться, щоб запустити таймер.";
+"KEY_START_ONBORDING" = "Почати";
+"KEY_NEXT" = "Далі";
+"KEY_DONTNOW" = "Не зараз";
+"KEY_INTRODUCTION_FUNCTION" = "Огляд функцій";
+"KEY_CAN_CHANGE_COLOR" = "Змінити колір теми";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Змінити дизайн таймера";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Змінити вібрацію таймера";
+"KEY_CAN_WIDGET_TIMER" = "Показати таймер у віджеті";
+"KEY_CAN_CHANGE_DELAY" = "Налаштувати час розпізнавання введення";
+
+"KEY_TIMER" = "Таймер";
+"KEY_EDDIT" = "Редагувати";
+"KEY_DONE" = "Готово";
+"KEY_START" = "Старт";
+
+"KEY_HOURS" = "г";
+"KEY_MINUTES" = "х";
+"KEY_SECONDS" = "с";
+"KEY_HOURS_LONG" = "Години";
+"KEY_MINUTES_LONG" = "Хвилини";
+"KEY_SECONDS_LONG" = "Секунди";
+
+"KEY_SETTINGS" = "Налаштування";
+"KEY_HOWTO" = "Як користуватися";
+"KEY_PURCHASED" = "Вже придбано";
+"KEY_TIMER_VIBRATION" = "Вібрація таймера";
+"KEY_VIBRATION" = "Вібрація";
+"KEY_INPUTDELAY" = "Інтервал розпізнавання";
+"KEY_DELAY" = "Інтервал";
+"KEY_ERROR_STOREKIT" = "Помилка";
+"KEY_RESTORATION" = "Відновити";
+
+"KEY_ALEART_24OVER" = "Неможливо встановити таймер більше ніж на 24 години.";
+
+"KEY_CANCEL" = "Скасувати";
+"KEY_END" = "Завершити";
+
+"KEY_TIMERSHAPE" = "Дизайн таймера";
+"KEY_DESIGHN" = "Дизайн";
+"KEY_CIRCLE" = "Коло";
+"KEY_STAR" = "Зірка";
+"KEY_HEART" = "Серце";
+
+"KEY_DEFAULT" = "За замовчуванням";
+"KEY_WEAK" = "М’який";
+"KEY_STRESS" = "Сильний";
+"KEY_STOP" = "Стоп";
+"KEY_MIX" = "Змішаний";
+"KEY_RETRY" = "Швидкий";
+
+"KEY_PRIMARYCOLOR" = "Колір теми";
+"KEY_COLOR" = "Колір";
+"KEY_CYAN" = "Ціан";
+"KEY_BLUE" = "Синій";
+"KEY_PURPLE" = "Фіолетовий";
+"KEY_PINK" = "Рожевий";
+"KEY_RED" = "Червоний";
+"KEY_ORANGE" = "Помаранчевий";
+"KEY_YELLOW" = "Жовтий";
+"KEY_YELLOWGREEN" = "Жовто-зелений";
+"KEY_GREEN" = "Зелений";

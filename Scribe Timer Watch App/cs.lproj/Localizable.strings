@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Czech Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Vítejte v\nScribe Timer";
+"KEY_INTRODUCTION" = "Snadno nastavte časovač.";
+"KEY_ONBORDING1" = "Zadejte čísla.";
+"KEY_ONBORDING2" = "Čísla zadávejte po jednotlivých číslicích.";
+"KEY_ONBORDING3" = "Dvojitým klepnutím spusťte časovač.";
+"KEY_START_ONBORDING" = "Začít";
+"KEY_NEXT" = "Další";
+"KEY_DONTNOW" = "Teď ne";
+"KEY_INTRODUCTION_FUNCTION" = "Představení funkcí";
+"KEY_CAN_CHANGE_COLOR" = "Změna barvy motivu";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Změna designu časovače";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Změna vibrací časovače";
+"KEY_CAN_WIDGET_TIMER" = "Zobrazit časovač ve widgetu";
+"KEY_CAN_CHANGE_DELAY" = "Úprava doby rozpoznání vstupu";
+
+"KEY_TIMER" = "Časovač";
+"KEY_EDDIT" = "Upravit";
+"KEY_DONE" = "Hotovo";
+"KEY_START" = "Spustit";
+
+"KEY_HOURS" = "h";
+"KEY_MINUTES" = "m";
+"KEY_SECONDS" = "s";
+"KEY_HOURS_LONG" = "Hodiny";
+"KEY_MINUTES_LONG" = "Minuty";
+"KEY_SECONDS_LONG" = "Sekundy";
+
+"KEY_SETTINGS" = "Nastavení";
+"KEY_HOWTO" = "Jak používat";
+"KEY_PURCHASED" = "Již zakoupeno";
+"KEY_TIMER_VIBRATION" = "Vibrace časovače";
+"KEY_VIBRATION" = "Vibrace";
+"KEY_INPUTDELAY" = "Interval rozpoznání";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Chyba";
+"KEY_RESTORATION" = "Obnovit";
+
+"KEY_ALEART_24OVER" = "Nelze nastavit časovač delší než 24 hodin.";
+
+"KEY_CANCEL" = "Zrušit";
+"KEY_END" = "Konec";
+
+"KEY_TIMERSHAPE" = "Design časovače";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Kruh";
+"KEY_STAR" = "Hvězda";
+"KEY_HEART" = "Srdce";
+
+"KEY_DEFAULT" = "Výchozí";
+"KEY_WEAK" = "Jemné";
+"KEY_STRESS" = "Silné";
+"KEY_STOP" = "Zastavit";
+"KEY_MIX" = "Smíšené";
+"KEY_RETRY" = "Rychlé";
+
+"KEY_PRIMARYCOLOR" = "Barva motivu";
+"KEY_COLOR" = "Barva";
+"KEY_CYAN" = "Azurová";
+"KEY_BLUE" = "Modrá";
+"KEY_PURPLE" = "Fialová";
+"KEY_PINK" = "Růžová";
+"KEY_RED" = "Červená";
+"KEY_ORANGE" = "Oranžová";
+"KEY_YELLOW" = "Žlutá";
+"KEY_YELLOWGREEN" = "Žlutozelená";
+"KEY_GREEN" = "Zelená";

@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Dutch Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Welkom bij\nScribe Timer";
+"KEY_INTRODUCTION" = "Stel eenvoudig een timer in.";
+"KEY_ONBORDING1" = "Voer cijfers in.";
+"KEY_ONBORDING2" = "Voer de cijfers één voor één in.";
+"KEY_ONBORDING3" = "Dubbel tikken om de timer te starten.";
+"KEY_START_ONBORDING" = "Begin";
+"KEY_NEXT" = "Volgende";
+"KEY_DONTNOW" = "Nu niet";
+"KEY_INTRODUCTION_FUNCTION" = "Introductie van functies";
+"KEY_CAN_CHANGE_COLOR" = "Themakleur wijzigen";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Timerontwerp wijzigen";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Trilling van de timer wijzigen";
+"KEY_CAN_WIDGET_TIMER" = "Timer in widget tonen";
+"KEY_CAN_CHANGE_DELAY" = "Herkenningstijd van invoer aanpassen";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Bewerken";
+"KEY_DONE" = "Gereed";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "Uur";
+"KEY_MINUTES" = "Mi";
+"KEY_SECONDS" = "Sec";
+"KEY_HOURS_LONG" = "Uren";
+"KEY_MINUTES_LONG" = "Minuten";
+"KEY_SECONDS_LONG" = "Seconden";
+
+"KEY_SETTINGS" = "Instellingen";
+"KEY_HOWTO" = "Hoe te gebruiken";
+"KEY_PURCHASED" = "Al gekocht";
+"KEY_TIMER_VIBRATION" = "Trilling van de timer";
+"KEY_VIBRATION" = "Trilling";
+"KEY_INPUTDELAY" = "Herkenningsinterval";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Fout";
+"KEY_RESTORATION" = "Herstellen";
+
+"KEY_ALEART_24OVER" = "Een timer langer dan 24 uur kan niet worden ingesteld.";
+
+"KEY_CANCEL" = "Annuleren";
+"KEY_END" = "Einde";
+
+"KEY_TIMERSHAPE" = "Timerontwerp";
+"KEY_DESIGHN" = "Ontwerp";
+"KEY_CIRCLE" = "Cirkel";
+"KEY_STAR" = "Ster";
+"KEY_HEART" = "Hart";
+
+"KEY_DEFAULT" = "Standaard";
+"KEY_WEAK" = "Zacht";
+"KEY_STRESS" = "Sterk";
+"KEY_STOP" = "Stop";
+"KEY_MIX" = "Gemengd";
+"KEY_RETRY" = "Snel";
+
+"KEY_PRIMARYCOLOR" = "Themakleur";
+"KEY_COLOR" = "Kleur";
+"KEY_CYAN" = "Cyaan";
+"KEY_BLUE" = "Blauw";
+"KEY_PURPLE" = "Paars";
+"KEY_PINK" = "Roze";
+"KEY_RED" = "Rood";
+"KEY_ORANGE" = "Oranje";
+"KEY_YELLOW" = "Geel";
+"KEY_YELLOWGREEN" = "Geelgroen";
+"KEY_GREEN" = "Groen";

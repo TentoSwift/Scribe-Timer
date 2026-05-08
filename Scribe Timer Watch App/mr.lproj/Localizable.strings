@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Marathi Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer मध्ये\nआपले स्वागत आहे";
+"KEY_INTRODUCTION" = "टायमर सहज सेट करा.";
+"KEY_ONBORDING1" = "संख्या प्रविष्ट करा.";
+"KEY_ONBORDING2" = "संख्या एक-एक अंकाने प्रविष्ट करा.";
+"KEY_ONBORDING3" = "टायमर सुरू करण्यासाठी डबल टॅप करा.";
+"KEY_START_ONBORDING" = "सुरू करा";
+"KEY_NEXT" = "पुढे";
+"KEY_DONTNOW" = "आता नाही";
+"KEY_INTRODUCTION_FUNCTION" = "वैशिष्ट्यांची ओळख";
+"KEY_CAN_CHANGE_COLOR" = "थीम रंग बदला";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "टायमर डिझाइन बदला";
+
+"KEY_CAN_CHANGE_VIBERATION" = "टायमर कंपन बदला";
+"KEY_CAN_WIDGET_TIMER" = "विजेटमध्ये टायमर दाखवा";
+"KEY_CAN_CHANGE_DELAY" = "इनपुट ओळख वेळ समायोजित करा";
+
+"KEY_TIMER" = "टायमर";
+"KEY_EDDIT" = "संपादन";
+"KEY_DONE" = "पूर्ण";
+"KEY_START" = "सुरू";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "तास";
+"KEY_MINUTES_LONG" = "मिनिटे";
+"KEY_SECONDS_LONG" = "सेकंद";
+
+"KEY_SETTINGS" = "सेटिंग्ज";
+"KEY_HOWTO" = "कसे वापरावे";
+"KEY_PURCHASED" = "आधीच खरेदी केले";
+"KEY_TIMER_VIBRATION" = "टायमर कंपन";
+"KEY_VIBRATION" = "कंपन";
+"KEY_INPUTDELAY" = "ओळख अंतर";
+"KEY_DELAY" = "अंतर";
+"KEY_ERROR_STOREKIT" = "त्रुटी";
+"KEY_RESTORATION" = "पुनर्स्थापित करा";
+
+"KEY_ALEART_24OVER" = "24 तासांपेक्षा जास्त टायमर सेट करता येत नाही.";
+
+"KEY_CANCEL" = "रद्द करा";
+"KEY_END" = "समाप्त";
+
+"KEY_TIMERSHAPE" = "टायमर डिझाइन";
+"KEY_DESIGHN" = "डिझाइन";
+"KEY_CIRCLE" = "वर्तुळ";
+"KEY_STAR" = "तारा";
+"KEY_HEART" = "हृदय";
+
+"KEY_DEFAULT" = "डीफॉल्ट";
+"KEY_WEAK" = "मऊ";
+"KEY_STRESS" = "मजबूत";
+"KEY_STOP" = "थांबा";
+"KEY_MIX" = "मिश्र";
+"KEY_RETRY" = "जलद";
+
+"KEY_PRIMARYCOLOR" = "थीम रंग";
+"KEY_COLOR" = "रंग";
+"KEY_CYAN" = "सायन";
+"KEY_BLUE" = "निळा";
+"KEY_PURPLE" = "जांभळा";
+"KEY_PINK" = "गुलाबी";
+"KEY_RED" = "लाल";
+"KEY_ORANGE" = "नारिंगी";
+"KEY_YELLOW" = "पिवळा";
+"KEY_YELLOWGREEN" = "पिवळा-हिरवा";
+"KEY_GREEN" = "हिरवा";

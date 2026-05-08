@@ -3,10 +3,24 @@
   ScribbleTimer
 
   Created by 石野天斗 on 2026/02/11.
-  
 */
 
 "KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer에\n오신 것을 환영합니다";
+"KEY_INTRODUCTION" = "간편하게 타이머를 설정하세요.";
+"KEY_ONBORDING1" = "숫자를 입력하세요.";
+"KEY_ONBORDING2" = "숫자는 한 자리씩 입력합니다.";
+"KEY_ONBORDING3" = "두 번 탭하면 타이머가 시작됩니다.";
+"KEY_START_ONBORDING" = "시작하기";
+"KEY_NEXT" = "다음";
+"KEY_DONTNOW" = "나중에";
+"KEY_INTRODUCTION_FUNCTION" = "기능 소개";
+"KEY_CAN_CHANGE_COLOR" = "테마 색상 변경";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "타이머 디자인 변경";
+"KEY_CAN_CHANGE_VIBRATION" = "타이머 진동 변경";
+"KEY_CAN_WIDGET_TIMER" = "위젯에 타이머 표시";
+"KEY_CAN_CHANGE_DELAY" = "입력 인식 시간 조절";
 
 "KEY_TIMER" = "타이머";
 "KEY_EDDIT" = "편집";
@@ -16,10 +30,17 @@
 "KEY_HOURS" = "시간";
 "KEY_MINUTES" = "분";
 "KEY_SECONDS" = "초";
+"KEY_HOURS_LONG" = "시간";
+"KEY_MINUTES_LONG" = "분";
+"KEY_SECONDS_LONG" = "초";
 
 "KEY_SETTINGS" = "설정";
-"KEY_ALARM_VIBRATION" = "알람 진동";
-
+"KEY_HOWTO" = "사용 방법";
+"KEY_PURCHASED" = "이미 구매함";
+"KEY_TIMER_VIBRATION" = "타이머 진동";
+"KEY_VIBRATION" = "진동";
+"KEY_INPUTDELAY" = "인식 간격";
+"KEY_DELAY" = "간격";
 "KEY_ERROR_STOREKIT" = "오류";
 "KEY_RESTORATION" = "복원";
 
@@ -29,9 +50,17 @@
 "KEY_END" = "종료";
 
 "KEY_TIMERSHAPE" = "타이머 디자인";
+"KEY_DESIGHN" = "디자인";
 "KEY_CIRCLE" = "원형";
 "KEY_STAR" = "별";
 "KEY_HEART" = "하트";
+
+"KEY_DEFAULT" = "기본";
+"KEY_WEAK" = "부드러움";
+"KEY_STRESS" = "강함";
+"KEY_STOP" = "정지";
+"KEY_MIX" = "믹스";
+"KEY_RETRY" = "빠름";
 
 "KEY_PRIMARYCOLOR" = "테마 색상";
 "KEY_COLOR" = "색상";

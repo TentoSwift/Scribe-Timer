@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Tamil Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer இற்கு\nவரவேற்கிறோம்";
+"KEY_INTRODUCTION" = "டைமரை எளிதாக அமைக்கவும்.";
+"KEY_ONBORDING1" = "எண்களை உள்ளிடவும்.";
+"KEY_ONBORDING2" = "எண்களை ஒவ்வொரு இலக்கமாக உள்ளிடவும்.";
+"KEY_ONBORDING3" = "டைமரை தொடங்க இருமுறை தட்டவும்.";
+"KEY_START_ONBORDING" = "தொடங்கு";
+"KEY_NEXT" = "அடுத்து";
+"KEY_DONTNOW" = "இப்போது வேண்டாம்";
+"KEY_INTRODUCTION_FUNCTION" = "அம்சங்களின் அறிமுகம்";
+"KEY_CAN_CHANGE_COLOR" = "தீம் நிறத்தை மாற்றவும்";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "டைமர் வடிவமைப்பை மாற்றவும்";
+
+"KEY_CAN_CHANGE_VIBERATION" = "டைமர் அதிர்வை மாற்றவும்";
+"KEY_CAN_WIDGET_TIMER" = "விட்ஜெட்டில் டைமரை காட்டவும்";
+"KEY_CAN_CHANGE_DELAY" = "உள்ளீடு அடையாள நேரத்தை சரிசெய்யவும்";
+
+"KEY_TIMER" = "டைமர்";
+"KEY_EDDIT" = "திருத்து";
+"KEY_DONE" = "முடிந்தது";
+"KEY_START" = "தொடங்கு";
+
+"KEY_HOURS" = "ம";
+"KEY_MINUTES" = "ந";
+"KEY_SECONDS" = "வ";
+"KEY_HOURS_LONG" = "மணிநேரங்கள்";
+"KEY_MINUTES_LONG" = "நிமிடங்கள்";
+"KEY_SECONDS_LONG" = "வினாடிகள்";
+
+"KEY_SETTINGS" = "அமைப்புகள்";
+"KEY_HOWTO" = "எப்படி பயன்படுத்துவது";
+"KEY_PURCHASED" = "ஏற்கனவே வாங்கப்பட்டது";
+"KEY_TIMER_VIBRATION" = "டைமர் அதிர்வு";
+"KEY_VIBRATION" = "அதிர்வு";
+"KEY_INPUTDELAY" = "அடையாள இடைவெளி";
+"KEY_DELAY" = "இடைவெளி";
+"KEY_ERROR_STOREKIT" = "பிழை";
+"KEY_RESTORATION" = "மீட்டமை";
+
+"KEY_ALEART_24OVER" = "24 மணிநேரத்திற்கு மேல் டைமரை அமைக்க முடியாது.";
+
+"KEY_CANCEL" = "ரத்து செய்";
+"KEY_END" = "முடிவு";
+
+"KEY_TIMERSHAPE" = "டைமர் வடிவமைப்பு";
+"KEY_DESIGHN" = "வடிவமைப்பு";
+"KEY_CIRCLE" = "வட்டம்";
+"KEY_STAR" = "நட்சத்திரம்";
+"KEY_HEART" = "இதயம்";
+
+"KEY_DEFAULT" = "இயல்புநிலை";
+"KEY_WEAK" = "மென்மையான";
+"KEY_STRESS" = "வலுவான";
+"KEY_STOP" = "நிறுத்து";
+"KEY_MIX" = "கலப்பு";
+"KEY_RETRY" = "வேகமான";
+
+"KEY_PRIMARYCOLOR" = "தீம் நிறம்";
+"KEY_COLOR" = "நிறம்";
+"KEY_CYAN" = "சியான்";
+"KEY_BLUE" = "நீலம்";
+"KEY_PURPLE" = "ஊதா";
+"KEY_PINK" = "இளஞ்சிவப்பு";
+"KEY_RED" = "சிவப்பு";
+"KEY_ORANGE" = "ஆரஞ்சு";
+"KEY_YELLOW" = "மஞ்சள்";
+"KEY_YELLOWGREEN" = "மஞ்சள்-பச்சை";
+"KEY_GREEN" = "பச்சை";

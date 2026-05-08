@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Thai Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "ยินดีต้อนรับสู่\nScribe Timer";
+"KEY_INTRODUCTION" = "ตั้งเวลาง่าย ๆ ได้อย่างรวดเร็ว";
+"KEY_ONBORDING1" = "ป้อนตัวเลข";
+"KEY_ONBORDING2" = "ป้อนตัวเลขทีละหลัก";
+"KEY_ONBORDING3" = "แตะสองครั้งเพื่อเริ่มตัวจับเวลา";
+"KEY_START_ONBORDING" = "เริ่มต้น";
+"KEY_NEXT" = "ถัดไป";
+"KEY_DONTNOW" = "ยังไม่ตอนนี้";
+"KEY_INTRODUCTION_FUNCTION" = "แนะนำฟีเจอร์";
+"KEY_CAN_CHANGE_COLOR" = "เปลี่ยนสีธีม";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "เปลี่ยนดีไซน์ตัวจับเวลา";
+
+"KEY_CAN_CHANGE_VIBERATION" = "เปลี่ยนการสั่นของตัวจับเวลา";
+"KEY_CAN_WIDGET_TIMER" = "แสดงตัวจับเวลาในวิดเจ็ต";
+"KEY_CAN_CHANGE_DELAY" = "ปรับเวลาการจดจำอินพุต";
+
+"KEY_TIMER" = "ตัวจับเวลา";
+"KEY_EDDIT" = "แก้ไข";
+"KEY_DONE" = "เสร็จสิ้น";
+"KEY_START" = "เริ่ม";
+
+"KEY_HOURS" = "ช";
+"KEY_MINUTES" = "น";
+"KEY_SECONDS" = "ว";
+"KEY_HOURS_LONG" = "ชั่วโมง";
+"KEY_MINUTES_LONG" = "นาที";
+"KEY_SECONDS_LONG" = "วินาที";
+
+"KEY_SETTINGS" = "การตั้งค่า";
+"KEY_HOWTO" = "วิธีใช้งาน";
+"KEY_PURCHASED" = "ซื้อแล้ว";
+"KEY_TIMER_VIBRATION" = "การสั่นของตัวจับเวลา";
+"KEY_VIBRATION" = "การสั่น";
+"KEY_INPUTDELAY" = "ช่วงเวลาการจดจำ";
+"KEY_DELAY" = "ช่วงเวลา";
+"KEY_ERROR_STOREKIT" = "ข้อผิดพลาด";
+"KEY_RESTORATION" = "กู้คืน";
+
+"KEY_ALEART_24OVER" = "ไม่สามารถตั้งเวลามากกว่า 24 ชั่วโมงได้";
+
+"KEY_CANCEL" = "ยกเลิก";
+"KEY_END" = "สิ้นสุด";
+
+"KEY_TIMERSHAPE" = "ดีไซน์ตัวจับเวลา";
+"KEY_DESIGHN" = "ดีไซน์";
+"KEY_CIRCLE" = "วงกลม";
+"KEY_STAR" = "ดาว";
+"KEY_HEART" = "หัวใจ";
+
+"KEY_DEFAULT" = "ค่าเริ่มต้น";
+"KEY_WEAK" = "เบา";
+"KEY_STRESS" = "แรง";
+"KEY_STOP" = "หยุด";
+"KEY_MIX" = "ผสม";
+"KEY_RETRY" = "เร็ว";
+
+"KEY_PRIMARYCOLOR" = "สีธีม";
+"KEY_COLOR" = "สี";
+"KEY_CYAN" = "ไซแอน";
+"KEY_BLUE" = "น้ำเงิน";
+"KEY_PURPLE" = "ม่วง";
+"KEY_PINK" = "ชมพู";
+"KEY_RED" = "แดง";
+"KEY_ORANGE" = "ส้ม";
+"KEY_YELLOW" = "เหลือง";
+"KEY_YELLOWGREEN" = "เหลืองเขียว";
+"KEY_GREEN" = "เขียว";

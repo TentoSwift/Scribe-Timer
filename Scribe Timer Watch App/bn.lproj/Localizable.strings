@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Bangla Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "স্বাগতম\nScribe Timer এ";
+"KEY_INTRODUCTION" = "সহজেই টাইমার সেট করুন।";
+"KEY_ONBORDING1" = "সংখ্যা লিখুন।";
+"KEY_ONBORDING2" = "সংখ্যা এক অঙ্ক করে লিখুন।";
+"KEY_ONBORDING3" = "টাইমার শুরু করতে ডাবল ট্যাপ করুন।";
+"KEY_START_ONBORDING" = "শুরু করুন";
+"KEY_NEXT" = "পরবর্তী";
+"KEY_DONTNOW" = "এখন নয়";
+"KEY_INTRODUCTION_FUNCTION" = "ফিচারের পরিচিতি";
+"KEY_CAN_CHANGE_COLOR" = "থিমের রঙ পরিবর্তন";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "টাইমারের নকশা পরিবর্তন";
+
+"KEY_CAN_CHANGE_VIBERATION" = "টাইমারের কম্পন পরিবর্তন";
+"KEY_CAN_WIDGET_TIMER" = "উইজেটে টাইমার দেখান";
+"KEY_CAN_CHANGE_DELAY" = "ইনপুট শনাক্তকরণের সময় সমন্বয়";
+
+"KEY_TIMER" = "টাইমার";
+"KEY_EDDIT" = "সম্পাদনা";
+"KEY_DONE" = "সম্পন্ন";
+"KEY_START" = "শুরু";
+
+"KEY_HOURS" = "ঘ";
+"KEY_MINUTES" = "ম";
+"KEY_SECONDS" = "স";
+"KEY_HOURS_LONG" = "ঘণ্টা";
+"KEY_MINUTES_LONG" = "মিনিট";
+"KEY_SECONDS_LONG" = "সেকেন্ড";
+
+"KEY_SETTINGS" = "সেটিংস";
+"KEY_HOWTO" = "ব্যবহারের নিয়ম";
+"KEY_PURCHASED" = "ইতিমধ্যে ক্রয় করা হয়েছে";
+"KEY_TIMER_VIBRATION" = "টাইমারের কম্পন";
+"KEY_VIBRATION" = "কম্পন";
+"KEY_INPUTDELAY" = "শনাক্তকরণ বিলম্ব বলতে বোঝায় একটি সংখ্যা লেখার পর সেটি ইনপুট হয়ে স্ক্রিন থেকে অদৃশ্য হওয়া পর্যন্ত সময়কে।";
+"KEY_DELAY" = "বিরতি";
+"KEY_ERROR_STOREKIT" = "ত্রুটি";
+"KEY_RESTORATION" = "পুনরুদ্ধার";
+
+"KEY_ALEART_24OVER" = "২৪ ঘণ্টার বেশি টাইমার সেট করা যাবে না।";
+
+"KEY_CANCEL" = "বাতিল";
+"KEY_END" = "শেষ";
+
+"KEY_TIMERSHAPE" = "টাইমারের নকশা";
+"KEY_DESIGHN" = "নকশা";
+"KEY_CIRCLE" = "বৃত্ত";
+"KEY_STAR" = "তারকা";
+"KEY_HEART" = "হৃদয়";
+
+"KEY_DEFAULT" = "ডিফল্ট";
+"KEY_WEAK" = "নরম";
+"KEY_STRESS" = "জোরালো";
+"KEY_STOP" = "বন্ধ";
+"KEY_MIX" = "মিশ্র";
+"KEY_RETRY" = "দ্রুত";
+
+"KEY_PRIMARYCOLOR" = "থিমের রঙ";
+"KEY_COLOR" = "রঙ";
+"KEY_CYAN" = "সায়ান";
+"KEY_BLUE" = "নীল";
+"KEY_PURPLE" = "বেগুনি";
+"KEY_PINK" = "গোলাপি";
+"KEY_RED" = "লাল";
+"KEY_ORANGE" = "কমলা";
+"KEY_YELLOW" = "হলুদ";
+"KEY_YELLOWGREEN" = "হলুদ-সবুজ";
+"KEY_GREEN" = "সবুজ";

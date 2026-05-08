@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Russian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Добро пожаловать в\nScribe Timer";
+"KEY_INTRODUCTION" = "Легко настройте таймер.";
+"KEY_ONBORDING1" = "Введите числа.";
+"KEY_ONBORDING2" = "Вводите числа по одной цифре.";
+"KEY_ONBORDING3" = "Дважды нажмите, чтобы запустить таймер.";
+"KEY_START_ONBORDING" = "Начать";
+"KEY_NEXT" = "Далее";
+"KEY_DONTNOW" = "Не сейчас";
+"KEY_INTRODUCTION_FUNCTION" = "Обзор функций";
+"KEY_CAN_CHANGE_COLOR" = "Изменить цвет темы";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Изменить дизайн таймера";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Изменить вибрацию таймера";
+"KEY_CAN_WIDGET_TIMER" = "Показать таймер в виджете";
+"KEY_CAN_CHANGE_DELAY" = "Настроить время распознавания ввода";
+
+"KEY_TIMER" = "Таймер";
+"KEY_EDDIT" = "Редактировать";
+"KEY_DONE" = "Готово";
+"KEY_START" = "Старт";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "М";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Часы";
+"KEY_MINUTES_LONG" = "Минуты";
+"KEY_SECONDS_LONG" = "Секунды";
+
+"KEY_SETTINGS" = "Настройки";
+"KEY_HOWTO" = "Как использовать";
+"KEY_PURCHASED" = "Уже приобретено";
+"KEY_TIMER_VIBRATION" = "Вибрация таймера";
+"KEY_VIBRATION" = "Вибрация";
+"KEY_INPUTDELAY" = "Интервал распознавания";
+"KEY_DELAY" = "Интервал";
+"KEY_ERROR_STOREKIT" = "Ошибка";
+"KEY_RESTORATION" = "Восстановить";
+
+"KEY_ALEART_24OVER" = "Нельзя установить таймер более чем на 24 часа.";
+
+"KEY_CANCEL" = "Отмена";
+"KEY_END" = "Завершить";
+
+"KEY_TIMERSHAPE" = "Дизайн таймера";
+"KEY_DESIGHN" = "Дизайн";
+"KEY_CIRCLE" = "Круг";
+"KEY_STAR" = "Звезда";
+"KEY_HEART" = "Сердце";
+
+"KEY_DEFAULT" = "По умолчанию";
+"KEY_WEAK" = "Мягкий";
+"KEY_STRESS" = "Сильный";
+"KEY_STOP" = "Стоп";
+"KEY_MIX" = "Смешанный";
+"KEY_RETRY" = "Быстро";
+
+"KEY_PRIMARYCOLOR" = "Цвет темы";
+"KEY_COLOR" = "Цвет";
+"KEY_CYAN" = "Циан";
+"KEY_BLUE" = "Синий";
+"KEY_PURPLE" = "Фиолетовый";
+"KEY_PINK" = "Розовый";
+"KEY_RED" = "Красный";
+"KEY_ORANGE" = "Оранжевый";
+"KEY_YELLOW" = "Жёлтый";
+"KEY_YELLOWGREEN" = "Жёлто-зелёный";
+"KEY_GREEN" = "Зелёный";

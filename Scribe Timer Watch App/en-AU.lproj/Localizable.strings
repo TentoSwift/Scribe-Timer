@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  English (Australia) Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Welcome to\nScribe Timer";
+"KEY_INTRODUCTION" = "Easily set up a timer.";
+"KEY_ONBORDING1" = "Enter numbers.";
+"KEY_ONBORDING2" = "Enter the numbers one digit at a time.";
+"KEY_ONBORDING3" = "Double-tap to start the timer.";
+"KEY_START_ONBORDING" = "Get Started";
+"KEY_NEXT" = "Next";
+"KEY_DONTNOW" = "Not Now";
+"KEY_INTRODUCTION_FUNCTION" = "Feature Overview";
+"KEY_CAN_CHANGE_COLOR" = "Change the theme colour";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Change the timer design";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Change the timer vibration";
+"KEY_CAN_WIDGET_TIMER" = "Show the timer in a widget";
+"KEY_CAN_CHANGE_DELAY" = "Adjust input recognition time";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Edit";
+"KEY_DONE" = "Done";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Hours";
+"KEY_MINUTES_LONG" = "Minutes";
+"KEY_SECONDS_LONG" = "Seconds";
+
+"KEY_SETTINGS" = "Settings";
+"KEY_HOWTO" = "How to Use";
+"KEY_PURCHASED" = "Already Purchased";
+"KEY_TIMER_VIBRATION" = "Timer Vibration";
+"KEY_VIBRATION" = "Vibration";
+"KEY_INPUTDELAY" = "Recognition delay refers to the time between drawing a number and when it is entered and disappears from the screen.";
+"KEY_DELAY" = "Recognition delay";
+"KEY_ERROR_STOREKIT" = "Error";
+"KEY_RESTORATION" = "Restore";
+
+"KEY_ALEART_24OVER" = "You can’t set a timer longer than 24 hours.";
+
+"KEY_CANCEL" = "Cancel";
+"KEY_END" = "End";
+
+"KEY_TIMERSHAPE" = "Timer Design";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Circle";
+"KEY_STAR" = "Star";
+"KEY_HEART" = "Heart";
+
+"KEY_DEFAULT" = "Default";
+"KEY_WEAK" = "Soft";
+"KEY_STRESS" = "Strong";
+"KEY_STOP" = "Stop";
+"KEY_MIX" = "Mixed";
+"KEY_RETRY" = "Quick";
+
+"KEY_PRIMARYCOLOR" = "Theme Colour";
+"KEY_COLOR" = "Colour";
+"KEY_CYAN" = "Cyan";
+"KEY_BLUE" = "Blue";
+"KEY_PURPLE" = "Purple";
+"KEY_PINK" = "Pink";
+"KEY_RED" = "Red";
+"KEY_ORANGE" = "Orange";
+"KEY_YELLOW" = "Yellow";
+"KEY_YELLOWGREEN" = "Yellow Green";
+"KEY_GREEN" = "Green";

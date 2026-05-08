@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Slovenian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Dobrodošli v\nScribe Timer";
+"KEY_INTRODUCTION" = "Preprosto nastavite časovnik.";
+"KEY_ONBORDING1" = "Vnesite številke.";
+"KEY_ONBORDING2" = "Številke vnašajte eno po eno.";
+"KEY_ONBORDING3" = "Dvakrat tapnite za zagon časovnika.";
+"KEY_START_ONBORDING" = "Začni";
+"KEY_NEXT" = "Naprej";
+"KEY_DONTNOW" = "Ne zdaj";
+"KEY_INTRODUCTION_FUNCTION" = "Predstavitev funkcij";
+"KEY_CAN_CHANGE_COLOR" = "Spremeni barvo teme";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Spremeni obliko časovnika";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Spremeni vibriranje časovnika";
+"KEY_CAN_WIDGET_TIMER" = "Prikaži časovnik v pripomočku";
+"KEY_CAN_CHANGE_DELAY" = "Prilagodi čas prepoznavanja vnosa";
+
+"KEY_TIMER" = "Časovnik";
+"KEY_EDDIT" = "Uredi";
+"KEY_DONE" = "Končano";
+"KEY_START" = "Zaženi";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Ure";
+"KEY_MINUTES_LONG" = "Minute";
+"KEY_SECONDS_LONG" = "Sekunde";
+
+"KEY_SETTINGS" = "Nastavitve";
+"KEY_HOWTO" = "Kako uporabljati";
+"KEY_PURCHASED" = "Že kupljeno";
+"KEY_TIMER_VIBRATION" = "Vibriranje časovnika";
+"KEY_VIBRATION" = "Vibriranje";
+"KEY_INPUTDELAY" = "Interval prepoznavanja";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Napaka";
+"KEY_RESTORATION" = "Obnovi";
+
+"KEY_ALEART_24OVER" = "Časovnika ni mogoče nastaviti na več kot 24 ur.";
+
+"KEY_CANCEL" = "Prekliči";
+"KEY_END" = "Končaj";
+
+"KEY_TIMERSHAPE" = "Oblika časovnika";
+"KEY_DESIGHN" = "Oblika";
+"KEY_CIRCLE" = "Krog";
+"KEY_STAR" = "Zvezda";
+"KEY_HEART" = "Srce";
+
+"KEY_DEFAULT" = "Privzeto";
+"KEY_WEAK" = "Nežno";
+"KEY_STRESS" = "Močno";
+"KEY_STOP" = "Ustavi";
+"KEY_MIX" = "Mešano";
+"KEY_RETRY" = "Hitro";
+
+"KEY_PRIMARYCOLOR" = "Barva teme";
+"KEY_COLOR" = "Barva";
+"KEY_CYAN" = "Cijan";
+"KEY_BLUE" = "Modra";
+"KEY_PURPLE" = "Vijolična";
+"KEY_PINK" = "Roza";
+"KEY_RED" = "Rdeča";
+"KEY_ORANGE" = "Oranžna";
+"KEY_YELLOW" = "Rumena";
+"KEY_YELLOWGREEN" = "Rumeno-zelena";
+"KEY_GREEN" = "Zelena";

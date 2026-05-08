@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Turkish Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer'a\nhoş geldiniz";
+"KEY_INTRODUCTION" = "Zamanlayıcıyı kolayca ayarlayın.";
+"KEY_ONBORDING1" = "Sayıları girin.";
+"KEY_ONBORDING2" = "Sayıları tek tek girin.";
+"KEY_ONBORDING3" = "Zamanlayıcıyı başlatmak için iki kez dokunun.";
+"KEY_START_ONBORDING" = "Başla";
+"KEY_NEXT" = "İleri";
+"KEY_DONTNOW" = "Şimdi değil";
+"KEY_INTRODUCTION_FUNCTION" = "Özelliklerin tanıtımı";
+"KEY_CAN_CHANGE_COLOR" = "Tema rengini değiştir";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Zamanlayıcı tasarımını değiştir";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Zamanlayıcı titreşimini değiştir";
+"KEY_CAN_WIDGET_TIMER" = "Zamanlayıcıyı widget'ta göster";
+"KEY_CAN_CHANGE_DELAY" = "Giriş algılama süresini ayarla";
+
+"KEY_TIMER" = "Zamanlayıcı";
+"KEY_EDDIT" = "Düzenle";
+"KEY_DONE" = "Tamam";
+"KEY_START" = "Başlat";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Saat";
+"KEY_MINUTES_LONG" = "Dakika";
+"KEY_SECONDS_LONG" = "Saniye";
+
+"KEY_SETTINGS" = "Ayarlar";
+"KEY_HOWTO" = "Nasıl kullanılır";
+"KEY_PURCHASED" = "Zaten satın alındı";
+"KEY_TIMER_VIBRATION" = "Zamanlayıcı titreşimi";
+"KEY_VIBRATION" = "Titreşim";
+"KEY_INPUTDELAY" = "Algılama aralığı";
+"KEY_DELAY" = "Aralık";
+"KEY_ERROR_STOREKIT" = "Hata";
+"KEY_RESTORATION" = "Geri yükle";
+
+"KEY_ALEART_24OVER" = "24 saatten uzun bir zamanlayıcı ayarlanamaz.";
+
+"KEY_CANCEL" = "İptal";
+"KEY_END" = "Bitir";
+
+"KEY_TIMERSHAPE" = "Zamanlayıcı tasarımı";
+"KEY_DESIGHN" = "Tasarım";
+"KEY_CIRCLE" = "Daire";
+"KEY_STAR" = "Yıldız";
+"KEY_HEART" = "Kalp";
+
+"KEY_DEFAULT" = "Varsayılan";
+"KEY_WEAK" = "Yumuşak";
+"KEY_STRESS" = "Güçlü";
+"KEY_STOP" = "Durdur";
+"KEY_MIX" = "Karışık";
+"KEY_RETRY" = "Hızlı";
+
+"KEY_PRIMARYCOLOR" = "Tema rengi";
+"KEY_COLOR" = "Renk";
+"KEY_CYAN" = "Camgöbeği";
+"KEY_BLUE" = "Mavi";
+"KEY_PURPLE" = "Mor";
+"KEY_PINK" = "Pembe";
+"KEY_RED" = "Kırmızı";
+"KEY_ORANGE" = "Turuncu";
+"KEY_YELLOW" = "Sarı";
+"KEY_YELLOWGREEN" = "Sarı-yeşil";
+"KEY_GREEN" = "Yeşil";

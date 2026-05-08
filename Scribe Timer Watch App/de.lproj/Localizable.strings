@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  German Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Willkommen bei\nScribe Timer";
+"KEY_INTRODUCTION" = "Stellen Sie ganz einfach einen Timer ein.";
+"KEY_ONBORDING1" = "Geben Sie Zahlen ein.";
+"KEY_ONBORDING2" = "Geben Sie die Zahlen Ziffer für Ziffer ein.";
+"KEY_ONBORDING3" = "Doppeltippen Sie, um den Timer zu starten.";
+"KEY_START_ONBORDING" = "Loslegen";
+"KEY_NEXT" = "Weiter";
+"KEY_DONTNOW" = "Jetzt nicht";
+"KEY_INTRODUCTION_FUNCTION" = "Funktionsübersicht";
+"KEY_CAN_CHANGE_COLOR" = "Designfarbe ändern";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Timer-Design ändern";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Timer-Vibration ändern";
+"KEY_CAN_WIDGET_TIMER" = "Timer im Widget anzeigen";
+"KEY_CAN_CHANGE_DELAY" = "Erkennungszeit der Eingabe anpassen";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Bearbeiten";
+"KEY_DONE" = "Fertig";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "h";
+"KEY_MINUTES" = "m";
+"KEY_SECONDS" = "s";
+"KEY_HOURS_LONG" = "Stunden";
+"KEY_MINUTES_LONG" = "Minuten";
+"KEY_SECONDS_LONG" = "Sekunden";
+
+"KEY_SETTINGS" = "Einstellungen";
+"KEY_HOWTO" = "Anleitung";
+"KEY_PURCHASED" = "Bereits gekauft";
+"KEY_TIMER_VIBRATION" = "Timer-Vibration";
+"KEY_VIBRATION" = "Vibration";
+"KEY_INPUTDELAY" = "Die Erkennungsverzögerung bezeichnet die Zeit zwischen dem Zeichnen einer Zahl, ihrer Eingabe und dem Verschwinden vom Bildschirm.";
+"KEY_DELAY" = "Intervall";
+"KEY_ERROR_STOREKIT" = "Fehler";
+"KEY_RESTORATION" = "Wiederherstellen";
+
+"KEY_ALEART_24OVER" = "Ein Timer über 24 Stunden kann nicht eingestellt werden.";
+
+"KEY_CANCEL" = "Abbrechen";
+"KEY_END" = "Ende";
+
+"KEY_TIMERSHAPE" = "Timer-Design";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Kreis";
+"KEY_STAR" = "Stern";
+"KEY_HEART" = "Herz";
+
+"KEY_DEFAULT" = "Standard";
+"KEY_WEAK" = "Leicht";
+"KEY_STRESS" = "Stark";
+"KEY_STOP" = "Stopp";
+"KEY_MIX" = "Gemischt";
+"KEY_RETRY" = "Schnell";
+
+"KEY_PRIMARYCOLOR" = "Designfarbe";
+"KEY_COLOR" = "Farbe";
+"KEY_CYAN" = "Cyan";
+"KEY_BLUE" = "Blau";
+"KEY_PURPLE" = "Lila";
+"KEY_PINK" = "Pink";
+"KEY_RED" = "Rot";
+"KEY_ORANGE" = "Orange";
+"KEY_YELLOW" = "Gelb";
+"KEY_YELLOWGREEN" = "Gelbgrün";
+"KEY_GREEN" = "Grün";

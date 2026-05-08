@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Bulgarian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Добре дошли в\nScribe Timer";
+"KEY_INTRODUCTION" = "Нека лесно настроим таймер.";
+"KEY_ONBORDING1" = "Въведете числа.";
+"KEY_ONBORDING2" = "Въвеждайте числата едно по едно.";
+"KEY_ONBORDING3" = "Докоснете два пъти, за да стартирате таймера.";
+"KEY_START_ONBORDING" = "Започнете";
+"KEY_NEXT" = "Напред";
+"KEY_DONTNOW" = "Не сега";
+"KEY_INTRODUCTION_FUNCTION" = "Представяне на функциите";
+"KEY_CAN_CHANGE_COLOR" = "Промяна на темния цвят";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Промяна на дизайна на таймера";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Промяна на вибрацията на таймера";
+"KEY_CAN_WIDGET_TIMER" = "Показване на таймера в уиджета";
+"KEY_CAN_CHANGE_DELAY" = "Настройка на времето за разпознаване на въвеждането";
+
+"KEY_TIMER" = "Таймер";
+"KEY_EDDIT" = "Редактиране";
+"KEY_DONE" = "Готово";
+"KEY_START" = "Старт";
+
+"KEY_HOURS" = "Ч";
+"KEY_MINUTES" = "М";
+"KEY_SECONDS" = "С";
+"KEY_HOURS_LONG" = "Часа";
+"KEY_MINUTES_LONG" = "Минути";
+"KEY_SECONDS_LONG" = "Секунди";
+
+"KEY_SETTINGS" = "Настройки";
+"KEY_HOWTO" = "Как се използва";
+"KEY_PURCHASED" = "Вече закупено";
+"KEY_TIMER_VIBRATION" = "Вибрация на таймера";
+"KEY_VIBRATION" = "Вибрация";
+"KEY_INPUTDELAY" = "Интервалът на разпознаване се отнася до времето между изписването на число и неговото въвеждане и изчезване от екрана.";
+"KEY_DELAY" = "Интервал";
+"KEY_ERROR_STOREKIT" = "Грешка";
+"KEY_RESTORATION" = "Възстановяване";
+
+"KEY_ALEART_24OVER" = "Не може да се зададе таймер над 24 часа.";
+
+"KEY_CANCEL" = "Отказ";
+"KEY_END" = "Край";
+
+"KEY_TIMERSHAPE" = "Дизайн на таймера";
+"KEY_DESIGHN" = "Дизайн";
+"KEY_CIRCLE" = "Кръг";
+"KEY_STAR" = "Звезда";
+"KEY_HEART" = "Сърце";
+
+"KEY_DEFAULT" = "По подразбиране";
+"KEY_WEAK" = "Лека";
+"KEY_STRESS" = "Силна";
+"KEY_STOP" = "Стоп";
+"KEY_MIX" = "Смесена";
+"KEY_RETRY" = "Бързо";
+
+"KEY_PRIMARYCOLOR" = "Основен цвят";
+"KEY_COLOR" = "Цвят";
+"KEY_CYAN" = "Циан";
+"KEY_BLUE" = "Син";
+"KEY_PURPLE" = "Лилав";
+"KEY_PINK" = "Розов";
+"KEY_RED" = "Червен";
+"KEY_ORANGE" = "Оранжев";
+"KEY_YELLOW" = "Жълт";
+"KEY_YELLOWGREEN" = "Жълто-зелен";
+"KEY_GREEN" = "Зелен";

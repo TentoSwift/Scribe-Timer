@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Indonesian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Selamat datang di\nScribe Timer";
+"KEY_INTRODUCTION" = "Atur timer dengan mudah.";
+"KEY_ONBORDING1" = "Masukkan angka.";
+"KEY_ONBORDING2" = "Masukkan angka satu per satu.";
+"KEY_ONBORDING3" = "Ketuk dua kali untuk memulai timer.";
+"KEY_START_ONBORDING" = "Mulai";
+"KEY_NEXT" = "Berikutnya";
+"KEY_DONTNOW" = "Nanti saja";
+"KEY_INTRODUCTION_FUNCTION" = "Pengenalan Fitur";
+"KEY_CAN_CHANGE_COLOR" = "Ubah warna tema";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Ubah desain timer";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Ubah getaran timer";
+"KEY_CAN_WIDGET_TIMER" = "Tampilkan timer di widget";
+"KEY_CAN_CHANGE_DELAY" = "Sesuaikan waktu pengenalan input";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Edit";
+"KEY_DONE" = "Selesai";
+"KEY_START" = "Mulai";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Jam";
+"KEY_MINUTES_LONG" = "Menit";
+"KEY_SECONDS_LONG" = "Detik";
+
+"KEY_SETTINGS" = "Pengaturan";
+"KEY_HOWTO" = "Cara Menggunakan";
+"KEY_PURCHASED" = "Sudah Dibeli";
+"KEY_TIMER_VIBRATION" = "Getaran Timer";
+"KEY_VIBRATION" = "Getaran";
+"KEY_INPUTDELAY" = "Interval Pengenalan";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Kesalahan";
+"KEY_RESTORATION" = "Pulihkan";
+
+"KEY_ALEART_24OVER" = "Timer lebih dari 24 jam tidak dapat diatur.";
+
+"KEY_CANCEL" = "Batal";
+"KEY_END" = "Selesai";
+
+"KEY_TIMERSHAPE" = "Desain Timer";
+"KEY_DESIGHN" = "Desain";
+"KEY_CIRCLE" = "Lingkaran";
+"KEY_STAR" = "Bintang";
+"KEY_HEART" = "Hati";
+
+"KEY_DEFAULT" = "Default";
+"KEY_WEAK" = "Lembut";
+"KEY_STRESS" = "Kuat";
+"KEY_STOP" = "Berhenti";
+"KEY_MIX" = "Campuran";
+"KEY_RETRY" = "Cepat";
+
+"KEY_PRIMARYCOLOR" = "Warna Tema";
+"KEY_COLOR" = "Warna";
+"KEY_CYAN" = "Sian";
+"KEY_BLUE" = "Biru";
+"KEY_PURPLE" = "Ungu";
+"KEY_PINK" = "Merah Muda";
+"KEY_RED" = "Merah";
+"KEY_ORANGE" = "Oranye";
+"KEY_YELLOW" = "Kuning";
+"KEY_YELLOWGREEN" = "Kuning-Hijau";
+"KEY_GREEN" = "Hijau";

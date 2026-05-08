@@ -10,13 +10,16 @@ struct Time: Hashable {
 
 struct ContentView: View {
     @EnvironmentObject private var screenSizeStore: ScreenSizeStore
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     @AppStorage("inputDelay", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var inputDelay: Double = 0.4
     @AppStorage("isStartingTimer", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var isStartingTimer: Bool = false
     @AppStorage("scheduledDateWidet", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var scheduledDateWidet: Date = Date()
     @AppStorage("totalTimeSeconds", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var totalTimeSeconds: Double = 0.0
+    @AppStorage("timerHistory", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var timerHistoryData = Data()
+    @AppStorage("hasShownOnboarding", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var hasShownOnboarding: Bool = false
     @State private var currentLine: [CGPoint] = []
     @State private var lines: [[CGPoint]] = []
+    @State private var showOver24Alert: Bool = false
     
     @State private var currentDigits: [Int] = []
     @State private var recognizedValue: Int = 0
@@ -35,11 +38,362 @@ struct ContentView: View {
     
     @State private var recognitionWorkItem: DispatchWorkItem?
     
-    // 既存の変数付近に追加
-    @State private var previewDigit: Int? = nil // リアルタイムプレビュー用
-    @State private var drawCounter: Int = 0     // 処理を間引くためのカウンタ
+    @State private var previewDigit: Int? = nil
+    @State private var drawCounter: Int = 0
+    @State private var isPresented: Bool = false
     
     private let targetSize = CGSize(width: 28, height: 28)
+    
+    private func startTimer() {
+        if !inputTime.isEmpty {
+            let totalSeconds = calculateTotalSeconds()
+            
+            if totalSeconds > 86400 {
+                showOver24Alert = true
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                    isPresentedTimerView.toggle()
+                }
+            }
+        }
+    }
+    
+    var body: some View {
+        NavigationStack {
+                TabView(selection: $tab) {
+                    InputView()
+                        .tag(0)
+                    SelectedTimerView()
+                        .tag(1)
+                    SettingsView()
+                        .tag(2)
+                }
+                .background {
+                    VStack {
+                        Button {
+                            if !inputTime.isEmpty {
+                                startTimer()
+                            }
+                        } label: {
+                            RoundedRectangle(cornerRadius: 30)
+                                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                                .ignoresSafeArea()
+                        }
+                        .opacity(0)
+                    }
+                    .modify { view in
+                        if tab == 0 && !inputTime.isEmpty {
+                            view
+                            .handGestureShortcut(.primaryAction)
+                            .accessibilityQuickAction(style: .prompt) {
+                                Button{
+                                    startTimer()
+                                }label: {
+                                    Text("KEY_START")
+                                }
+                            }
+                        }
+                    }
+                    .overlay {
+                        RoundedRectangle(cornerRadius: 30)
+                            .fill(.black)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .ignoresSafeArea()
+                    }
+                    NavigationLink(isActive: $isPresentedTimerView) {
+                        TimerView(
+                            isPresentedTimerView: $isPresentedTimerView,
+                            startDate: .now,
+                            totalTime: calculateTotalSeconds(),
+                            displayTotalTime: totalTimeSeconds
+                        )
+                    } label: {
+                        Text("")
+                    }
+                    .opacity(0)
+                }
+                .navigationDestination(isPresented: $isPresented) {
+                    OnbordingView(isOnbord: true, isPresented: $isPresented)
+                        .navigationBarBackButtonHidden()
+                }
+                .sheet(isPresented: $isPresentedNewTimerView) {
+                    NavigationStack {
+                        NewTimerView()
+                            .toolbarVisibility(.hidden, for: .navigationBar)
+                    }
+                }
+                .tabViewStyle(.verticalPage)
+                .onAppear {
+                    if !hasShownOnboarding {
+                        isPresented.toggle()
+                    }
+                    inputTime = []
+                    if isStartingTimer {
+                        isPresentedTimerView = true
+                    }
+                }
+                .onChange(of: tab) {
+                    // no-op
+                }
+                .onChange(of: inputTime) {
+                    totalTimeSeconds = calculateTotalSeconds()
+                }
+                .alert("KEY_ALEART_24OVER", isPresented: $showOver24Alert) {
+                    Button("OK", role: .cancel) { }
+                }
+                .toolbar { bottomToolbar }
+        }
+      
+    }
+    
+    @ToolbarContentBuilder
+    private var bottomToolbar: some ToolbarContent {
+        ToolbarItem(placement: .bottomBar) {
+            HStack {
+                if tab == 0 {
+                    ForEach(Array(TimeUnitMode.allCases), id: \.self) { timer in
+                        Button {
+                            withAnimation {
+                                selectedTimerMode = timer
+                            }
+                        } label: {
+                            Text(timer.title)
+                        }
+                        .modify { view in
+                            if #available(watchOS 26.0, *) {
+                                view.foregroundStyle(.white.opacity(0.8))
+                            } else {
+                                view.foregroundStyle(.white)
+                            }
+                        }
+                        .tint(selectedTimerMode == timer || isNoInput ? tintColor.color : Color.clear)
+                        .disabled(isDisabled(mode: timer) || isNoInput)
+                    }
+
+                    Button(action: {
+                        withAnimation {
+                            lines = []
+                            currentDigits = []
+                            recognizedValue = 0
+                            recognizedText = ""
+                            if !inputTime.isEmpty {
+                                _ = inputTime.removeLast()
+                            }
+                        }
+                    }) {
+                        Image(systemName: "delete.left.fill")
+                            .foregroundColor(tintColor.color)
+                    }
+                    .tint(.clear)
+                    .disabled(inputTime.isEmpty && tab == 0)
+                }
+            }
+        }
+    }
+    
+    @ViewBuilder
+    func InputView() -> some View {
+        VStack(spacing: 0) {
+            GeometryReader { geometry in
+                ZStack {
+                    Color.black
+                    
+                    Path { path in
+                        for line in lines {
+                            addPoints(to: &path, points: line)
+                        }
+                        addPoints(to: &path, points: currentLine)
+                    }
+                    .stroke(tintColor.color,
+                            style: StrokeStyle(lineWidth: 12,
+                                               lineCap: .round,
+                                               lineJoin: .round))
+                    VStack(alignment: .leading) {
+                                            HStack(spacing: 0) {
+                                                // ★修正: previewDigit がある場合も表示するように条件を変更
+                                                if tab == 0 && (!inputTime.isEmpty || previewDigit != nil) {
+                                        
+                                                        HStack(alignment: .lastTextBaseline) {
+                                                            ForEach(previewDisplayTimes, id: \.timeUnitMode) { time in
+                                                                Text("\(time.count)")
+                                                                    .bold()
+                                                                    +
+                                                                Text(time.timeUnitMode.title)
+                                                            }
+                                                        }
+                                                        .foregroundStyle(tintColor.color.opacity(0.8))
+                                                        .onTapGesture {
+                                                            if !inputTime.isEmpty {
+                                                                let totalSeconds = calculateTotalSeconds()
+                                                                
+                                                                if totalSeconds > 86400 {
+                                                                    showOver24Alert = true
+                                                                } else {
+                                                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                                                                        isPresentedTimerView.toggle()
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                }
+                                                Spacer()
+                                            }
+                                            .padding()
+                                            Spacer()
+                                        }
+                    .padding()
+                    .onChange(of: isPresentedTimerView) { old, new in
+                        let seconds = Int(calculateTotalSeconds())
+                        recordTimerStart(totalSeconds: seconds)
+                    }
+                }
+                .contentShape(Rectangle())
+                .onTapGesture(count: 2) {
+                   startTimer()
+                }
+                
+                .gesture(
+                    DragGesture(minimumDistance: 0)
+                        .onChanged { value in
+                            // 1. 確定待ちタイマーをキャンセル
+                            recognitionWorkItem?.cancel()
+                            
+                            // 2. 線の描画データを更新
+                            currentLine.append(value.location)
+                            
+                            drawCounter += 1
+                            if drawCounter % 5 == 0 {
+                                let currentStrokes = lines
+                                let currentSegment = currentLine
+                                let size = geometry.size
+                                
+                                DispatchQueue.global(qos: .userInteractive).async {
+                                    let allLines = currentStrokes + [currentSegment]
+                                    
+                                    if let digit = self.recognizeNumber(from: allLines, in: size) {
+                                        // 結果の更新はメインスレッドで
+                                        DispatchQueue.main.async {
+                                            // まだ書いている途中（指を離していない）場合のみ更新
+                                            if !self.currentLine.isEmpty {
+                                                withAnimation(.linear(duration: 0.1)) {
+                                                    self.previewDigit = digit
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .onEnded { _ in
+                            // 指を離したらカウンタをリセット
+                            drawCounter = 0
+                            
+                            // (既存のノイズ判定処理...)
+                            let xs = currentLine.map { $0.x }
+                            let ys = currentLine.map { $0.y }
+                            let width = (xs.max() ?? 0) - (xs.min() ?? 0)
+                            let height = (ys.max() ?? 0) - (ys.min() ?? 0)
+                            
+                            if width < 20 && height < 20 {
+                                currentLine = []
+                                previewDigit = nil // ノイズならプレビューも消す
+                                return
+                            }
+                            
+                            lines.append(currentLine)
+                            
+                            // 描画用の currentLine は少し遅れて消す（見た目のつながりのため）
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                                currentLine = []
+                            }
+                            tab = 0
+                            
+                            // ★確定処理の予約
+                            let workItem = DispatchWorkItem {
+                                if let digit = recognizeNumber(from: lines, in: geometry.size) {
+                                    
+                                    // --- 追加: 全体で6桁制限 ---
+                                    let currentTotalDigitCount = combinedDisplayTimes
+                                        .map { String($0.count) }
+                                        .joined()
+                                        .count
+                                    
+                                    // すでに6桁なら追加しない
+                                    guard currentTotalDigitCount < 6 else {
+                                        lines = []
+                                        withAnimation {
+                                            previewDigit = nil
+                                        }
+                                        return
+                                    }
+                                    
+                                    let isDigitCountOK = isDigitCountValid(adding: digit, mode: selectedTimerMode)
+                                
+                                    if isDigitCountOK {
+                                        currentDigits.append(digit)
+                                        let valueString = currentDigits.map(String.init).joined()
+                                        recognizedValue = Int(valueString) ?? 0
+                                        
+                                        let time = Time(count: recognizedValue, timeUnitMode: selectedTimerMode)
+                                        inputTime.append(time)
+                                        checkAndAutoSwitchUnit()
+                                        
+                                        currentDigits = []
+                                        recognizedValue = 0
+                                        recognizedText = allTimeText()
+                                    }
+                                }
+                                
+                                lines = []
+                                withAnimation {
+                                    previewDigit = nil
+                                }
+                            }
+                            
+                            self.recognitionWorkItem = workItem
+                            DispatchQueue.main.asyncAfter(deadline: .now() + inputDelay, execute: workItem)
+                        }
+                )
+            }
+            .cornerRadius(10)
+            .ignoresSafeArea()
+        }
+    }
+    
+    private func saveTimerHistory(_ arr: [Int]) {
+        if let data = try? JSONEncoder().encode(arr) {
+            timerHistoryData = data
+        }
+    }
+    
+    private func loadTimerHistory() -> [Int] {
+        guard !timerHistoryData.isEmpty,
+              let decoded = try? JSONDecoder().decode([Int].self, from: timerHistoryData)
+        else {
+            return []
+        }
+        return decoded
+    }
+    
+    private func recordTimerStart(totalSeconds: Int, maxCount: Int = 4) {
+        var arr = loadTimerHistory()
+        
+        // 0秒は保存しない
+        guard totalSeconds > 0 else { return }
+        
+        // 既にあれば削除（重複防止）
+        if let index = arr.firstIndex(of: totalSeconds) {
+            arr.remove(at: index)
+        }
+        arr.insert(totalSeconds, at: 0)
+        
+        // 最大件数制限
+        if arr.count > maxCount {
+            arr = Array(arr.prefix(maxCount))
+        }
+        
+        saveTimerHistory(arr)
+    }
     
     private func calculateTotalSeconds() -> Double {
         var total: Double = 0
@@ -57,13 +411,10 @@ struct ContentView: View {
         return total
     }
     
-    // ★修正: 既存の combinedDisplayTimes はこの関数を呼ぶ形に変えます
         private var combinedDisplayTimes: [Time] {
             return createCombinedTimes(from: inputTime)
         }
         
-        // ★追加: 入力中の数字(previewDigit)を含めた、表示用配列
-        // これをボタンの表示に使います
         private var previewDisplayTimes: [Time] {
             var tempInput = inputTime
             
@@ -125,8 +476,6 @@ struct ContentView: View {
             return true
             
         case .seconds:
-            // ★ここが今回のポイント★
-            // 時間 または 分 があるなら、秒は2桁(99)まで
             if hasHours || hasMinutes {
                 return newValue < 100 // 100以上（3桁）はダメ
             }
@@ -223,8 +572,6 @@ struct ContentView: View {
             let hasHigherUnit = inputTime.contains { $0.timeUnitMode.rank < mode.rank }
             
             if hasHigherUnit {
-                // 上位の単位があるなら、2桁(count >= 2)でロック
-                // ※「1時間」がある時の「分」、「1分」がある時の「秒」などがここ
                 return digitCount >= 2
             } else {
                 return false
@@ -232,266 +579,6 @@ struct ContentView: View {
         }
         
         return false
-    }
-    
-    var body: some View {
-        NavigationStack(path: $path) {
-            TabView(selection: $tab) {
-                InputView()
-                    .tag(0)
-                SelectedTimerView()
-                    .tag(1)
-                SettingsView()
-                    .tag(2)
-            }
-            .tabViewStyle(.verticalPage)
-            .onAppear {
-                inputTime = []
-                
-                // 再起動時：タイマーが動作中なら自動で表示
-                if isStartingTimer {
-                    isPresentedTimerView = true
-                }
-            }
-            .onChange(of: inputTime) {
-                totalTimeSeconds = calculateTotalSeconds()
-            }
-            .toolbar {
-                ToolbarItem(placement: .bottomBar) {
-                    HStack {
-                        if tab == 0 {
-                            ForEach(Array(TimeUnitMode.allCases), id: \.self) { timer in
-                                Button {
-                                    withAnimation {
-                                        selectedTimerMode = timer
-                                    }
-                                } label: {
-                                    Text(timer.title)
-                                }
-                                .modify { view in
-                                    if #available(watchOS 26.0, *) {
-                                        view.foregroundStyle(.white.opacity(0.8))
-                                    } else {
-                                        view.foregroundStyle(.white)
-                                    }
-                                }
-                                .tint(selectedTimerMode == timer || isNoInput ? tintColor.color : Color.clear)
-                                .disabled(isDisabled(mode: timer) || isNoInput)
-                            }
-                            
-                            Button(action: {
-                                withAnimation {
-                                    // 1. 書きかけの線や認識中のデータがあればリセット
-                                    lines = []
-                                    currentDigits = []
-                                    recognizedValue = 0
-                                    recognizedText = ""
-                                    
-                                    // 2. 入力済みの時間があれば、最後の一つを削除する
-                                    if !inputTime.isEmpty {
-                                        let removed = inputTime.removeLast()
-                                        
-                                        // 分を削除して、時間がまだ残っている場合はモードを時間に戻す
-                                        let hasHours = inputTime.contains { $0.timeUnitMode == .hours }
-                                        let hasMinutes = inputTime.contains { $0.timeUnitMode == .minutes }
-                                        
-                                        if removed.timeUnitMode == .minutes && hasHours && !hasMinutes {
-                                            selectedTimerMode = .hours
-                                        }
-                                    }
-                                    
-                                }
-                            }) {
-                                Image(systemName: "delete.left.fill")
-                                    .foregroundColor(tintColor.color)
-                            }
-                            .tint(.clear)
-                            .disabled(inputTime.isEmpty && tab == 0)
-                        }
-                    }
-                }
-            }
-            .sheet(isPresented: $isPresentedNewTimerView) {
-                NewTimerView()
-            }
-        }
-    }
-    
-    @ViewBuilder
-    func InputView() -> some View {
-        VStack(spacing: 0) {
-            GeometryReader { geometry in
-                ZStack {
-                    Color.black
-                    
-                    Path { path in
-                        for line in lines {
-                            addPoints(to: &path, points: line)
-                        }
-                        addPoints(to: &path, points: currentLine)
-                    }
-                    .stroke(tintColor.color,
-                            style: StrokeStyle(lineWidth: 12,
-                                               lineCap: .round,
-                                               lineJoin: .round))
-                    VStack(alignment: .leading) {
-                                            HStack(spacing: 0) {
-                                                // ★修正: previewDigit がある場合も表示するように条件を変更
-                                                if tab == 0 && (!inputTime.isEmpty || previewDigit != nil) {
-                                                    Button {
-                                                        isPresentedTimerView.toggle()
-                                                    } label: {
-                                                        HStack(alignment: .lastTextBaseline) {
-                                                            Image(systemName: "play.fill")
-                                                            
-                                                            // ★修正: combinedDisplayTimes ではなく previewDisplayTimes を使用
-                                                            ForEach(previewDisplayTimes, id: \.timeUnitMode) { time in
-                                                                Text("\(time.count)")
-                                                                    .bold()
-                                                                    +
-                                                                Text(time.timeUnitMode.title)
-                                                            }
-                                                        }
-                                                        .foregroundStyle(.white.opacity(0.8))
-                                                    }
-                                                    .modify { view in
-                                                        if #available(watchOS 26.0, *) {
-                                                            view.glassEffect()
-                                                        } else {
-                                                            view
-                                                        }
-                                                    }
-                                                    // ★修正: タップ無効化の条件も合わせる
-                                                    .disabled((inputTime.isEmpty && previewDigit == nil) || isNoInput)
-                                                    .frame(maxWidth: screenSizeStore.screenWidth * 0.67)
-                                                    .padding(.top)
-                                                    .padding(.leading)
-                                                }
-                                                Spacer()
-                                            }
-                                            Spacer()
-                                        }
-                    .navigationDestination(isPresented: $isPresentedTimerView) {
-                        TimerView(
-                            isPresentedTimerView: $isPresentedTimerView,
-                            startDate: .now,
-                            totalTime: calculateTotalSeconds(),
-                            displayTotalTime: totalTimeSeconds
-                        )
-                    }
-                }
-                .contentShape(Rectangle())
-                .onTapGesture(count: 2) {
-                    if !inputTime.isEmpty {
-                        isPresentedTimerView.toggle()
-                    }
-                }
-                .gesture(
-                    DragGesture(minimumDistance: 0)
-                        .onChanged { value in
-                            // 1. 確定待ちタイマーをキャンセル
-                            recognitionWorkItem?.cancel()
-                            
-                            // 2. 線の描画データを更新
-                            currentLine.append(value.location)
-                            
-                            // 3. ★リアルタイム認識処理
-                            // 毎回やると重いので、5回に1回くらいの頻度で実行（調整可）
-                            drawCounter += 1
-                            if drawCounter % 5 == 0 {
-                                // 描画中のデータをコピーして渡す（スレッドセーフにするため）
-                                let currentStrokes = lines
-                                let currentSegment = currentLine
-                                let size = geometry.size
-                                
-                                // 重い処理なのでバックグラウンドで実行
-                                DispatchQueue.global(qos: .userInteractive).async {
-                                    // 過去の線 + 現在書いている線を結合
-                                    let allLines = currentStrokes + [currentSegment]
-                                    
-                                    // 画像生成 & 認識
-                                    if let digit = self.recognizeNumber(from: allLines, in: size) {
-                                        // 結果の更新はメインスレッドで
-                                        DispatchQueue.main.async {
-                                            // まだ書いている途中（指を離していない）場合のみ更新
-                                            if !self.currentLine.isEmpty {
-                                                withAnimation(.linear(duration: 0.1)) {
-                                                    self.previewDigit = digit
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        .onEnded { _ in
-                            // 指を離したらカウンタをリセット
-                            drawCounter = 0
-                            
-                            // (既存のノイズ判定処理...)
-                            let xs = currentLine.map { $0.x }
-                            let ys = currentLine.map { $0.y }
-                            let width = (xs.max() ?? 0) - (xs.min() ?? 0)
-                            let height = (ys.max() ?? 0) - (ys.min() ?? 0)
-                            
-                            if width < 20 && height < 20 {
-                                currentLine = []
-                                previewDigit = nil // ノイズならプレビューも消す
-                                return
-                            }
-                            
-                            lines.append(currentLine)
-                            
-                            // 描画用の currentLine は少し遅れて消す（見た目のつながりのため）
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                                currentLine = []
-                            }
-                            tab = 0
-                            
-                            // ★確定処理の予約
-                            let workItem = DispatchWorkItem {
-                                // ここで最終的な認識を行う
-                                // (onChangedの認識結果を使ってもいいですが、念のため全データで再認識)
-                                if let digit = recognizeNumber(from: lines, in: geometry.size) {
-                                    
-                                    // ... (既存の24時間・桁数チェックロジック) ...
-                                    let isDigitCountOK = isDigitCountValid(adding: digit, mode: selectedTimerMode)
-                                    // (省略: predictTotalSeconds 等のチェック)
-                                    
-                                    if isDigitCountOK { // 条件は適宜省略しています
-                                        currentDigits.append(digit)
-                                        let valueString = currentDigits.map(String.init).joined()
-                                        recognizedValue = Int(valueString) ?? 0
-                                        
-                                        let time = Time(count: recognizedValue, timeUnitMode: selectedTimerMode)
-                                        inputTime.append(time)
-                                        checkAndAutoSwitchUnit()
-                                        
-                                        currentDigits = []
-                                        recognizedValue = 0
-                                        recognizedText = allTimeText()
-                                    }
-                                }
-                                
-                                lines = []
-                                withAnimation {
-                                    previewDigit = nil // 確定したらプレビューを消す
-                                }
-                            }
-                            
-                            self.recognitionWorkItem = workItem
-                            DispatchQueue.main.asyncAfter(deadline: .now() + inputDelay, execute: workItem)
-                        }
-                )
-            }
-            .cornerRadius(10)
-            .ignoresSafeArea()
-        }
-    }
-    
-    @ViewBuilder
-    func TimerSettingsView() -> some View {
-        EmptyView()
     }
     
     private func addPoints(to path: inout Path, points: [CGPoint]) {

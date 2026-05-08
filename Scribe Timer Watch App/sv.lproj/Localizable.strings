@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Swedish Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Välkommen till\nScribe Timer";
+"KEY_INTRODUCTION" = "Ställ enkelt in en timer.";
+"KEY_ONBORDING1" = "Ange siffror.";
+"KEY_ONBORDING2" = "Ange siffrorna en siffra i taget.";
+"KEY_ONBORDING3" = "Dubbeltryck för att starta timern.";
+"KEY_START_ONBORDING" = "Kom igång";
+"KEY_NEXT" = "Nästa";
+"KEY_DONTNOW" = "Inte nu";
+"KEY_INTRODUCTION_FUNCTION" = "Funktionsöversikt";
+"KEY_CAN_CHANGE_COLOR" = "Ändra temafärg";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Ändra timerdesign";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Ändra timervibration";
+"KEY_CAN_WIDGET_TIMER" = "Visa timer i widget";
+"KEY_CAN_CHANGE_DELAY" = "Justera inmatningens igenkänningstid";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Redigera";
+"KEY_DONE" = "Klar";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "h";
+"KEY_MINUTES" = "m";
+"KEY_SECONDS" = "s";
+"KEY_HOURS_LONG" = "Timmar";
+"KEY_MINUTES_LONG" = "Minuter";
+"KEY_SECONDS_LONG" = "Sekunder";
+
+"KEY_SETTINGS" = "Inställningar";
+"KEY_HOWTO" = "Så här använder du";
+"KEY_PURCHASED" = "Redan köpt";
+"KEY_TIMER_VIBRATION" = "Timervibration";
+"KEY_VIBRATION" = "Vibration";
+"KEY_INPUTDELAY" = "Igenkänningsintervall";
+"KEY_DELAY" = "Intervall";
+"KEY_ERROR_STOREKIT" = "Fel";
+"KEY_RESTORATION" = "Återställ";
+
+"KEY_ALEART_24OVER" = "Det går inte att ställa in en timer längre än 24 timmar.";
+
+"KEY_CANCEL" = "Avbryt";
+"KEY_END" = "Slut";
+
+"KEY_TIMERSHAPE" = "Timerdesign";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Cirkel";
+"KEY_STAR" = "Stjärna";
+"KEY_HEART" = "Hjärta";
+
+"KEY_DEFAULT" = "Standard";
+"KEY_WEAK" = "Mjuk";
+"KEY_STRESS" = "Stark";
+"KEY_STOP" = "Stoppa";
+"KEY_MIX" = "Blandad";
+"KEY_RETRY" = "Snabb";
+
+"KEY_PRIMARYCOLOR" = "Temafärg";
+"KEY_COLOR" = "Färg";
+"KEY_CYAN" = "Cyan";
+"KEY_BLUE" = "Blå";
+"KEY_PURPLE" = "Lila";
+"KEY_PINK" = "Rosa";
+"KEY_RED" = "Röd";
+"KEY_ORANGE" = "Orange";
+"KEY_YELLOW" = "Gul";
+"KEY_YELLOWGREEN" = "Gulgrön";
+"KEY_GREEN" = "Grön";

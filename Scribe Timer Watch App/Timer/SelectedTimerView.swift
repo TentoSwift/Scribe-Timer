@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SelectedTimerView: View {
     @EnvironmentObject var screenSizeStore: ScreenSizeStore
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     @AppStorage("timerHistory", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var timerHistoryData: Data = Data()
     @State private var isEdit: Bool = false
     @State private var isPresentedTimerView: Bool = false
@@ -91,7 +91,8 @@ struct SelectedTimerView: View {
                                 TimerView(
                                     isPresentedTimerView: $isPresentedTimerView,
                                     startDate: .now,
-                                    totalTime: Double(item), displayTotalTime: Double(item)
+                                    totalTime: Double(item),
+                                    displayTotalTime: Double(item)
                                 )
                             } label: {
                                 ZStack {
@@ -126,7 +127,9 @@ struct SelectedTimerView: View {
                         .overlay(alignment: .topLeading) {
                             if isEdit {
                                 Button(role: .destructive) {
-                                    removeHistory(value: item)
+                                    withAnimation {
+                                        removeHistory(value: item)
+                                    }
                                 } label: {
                                     Image(systemName: "minus")
                                         .font(.system(size: buttonSize * 0.2, weight: .heavy))

@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Simplified Chinese Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "欢迎使用\nScribe Timer";
+"KEY_INTRODUCTION" = "轻松设置计时器。";
+"KEY_ONBORDING1" = "输入数字。";
+"KEY_ONBORDING2" = "数字请逐位输入。";
+"KEY_ONBORDING3" = "双击开始计时。";
+"KEY_START_ONBORDING" = "开始";
+"KEY_NEXT" = "下一步";
+"KEY_DONTNOW" = "暂不";
+"KEY_INTRODUCTION_FUNCTION" = "功能介绍";
+"KEY_CAN_CHANGE_COLOR" = "更改主题颜色";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "更改计时器设计";
+
+"KEY_CAN_CHANGE_VIBERATION" = "更改计时器震动";
+"KEY_CAN_WIDGET_TIMER" = "在小组件中显示计时器";
+"KEY_CAN_CHANGE_DELAY" = "调整输入识别时间";
+
+"KEY_TIMER" = "计时器";
+"KEY_EDDIT" = "编辑";
+"KEY_DONE" = "完成";
+"KEY_START" = "开始";
+
+"KEY_HOURS" = "时";
+"KEY_MINUTES" = "分";
+"KEY_SECONDS" = "秒";
+"KEY_HOURS_LONG" = "小时";
+"KEY_MINUTES_LONG" = "分钟";
+"KEY_SECONDS_LONG" = "秒";
+
+"KEY_SETTINGS" = "设置";
+"KEY_HOWTO" = "使用方法";
+"KEY_PURCHASED" = "已购买";
+"KEY_TIMER_VIBRATION" = "计时器震动";
+"KEY_VIBRATION" = "震动";
+"KEY_INPUTDELAY" = "识别间隔";
+"KEY_DELAY" = "间隔";
+"KEY_ERROR_STOREKIT" = "错误";
+"KEY_RESTORATION" = "恢复";
+
+"KEY_ALEART_24OVER" = "无法设置超过24小时的计时器。";
+
+"KEY_CANCEL" = "取消";
+"KEY_END" = "结束";
+
+"KEY_TIMERSHAPE" = "计时器设计";
+"KEY_DESIGHN" = "设计";
+"KEY_CIRCLE" = "圆形";
+"KEY_STAR" = "星形";
+"KEY_HEART" = "心形";
+
+"KEY_DEFAULT" = "默认";
+"KEY_WEAK" = "柔和";
+"KEY_STRESS" = "强烈";
+"KEY_STOP" = "停止";
+"KEY_MIX" = "混合";
+"KEY_RETRY" = "快速";
+
+"KEY_PRIMARYCOLOR" = "主题颜色";
+"KEY_COLOR" = "颜色";
+"KEY_CYAN" = "青色";
+"KEY_BLUE" = "蓝色";
+"KEY_PURPLE" = "紫色";
+"KEY_PINK" = "粉色";
+"KEY_RED" = "红色";
+"KEY_ORANGE" = "橙色";
+"KEY_YELLOW" = "黄色";
+"KEY_YELLOWGREEN" = "黄绿色";
+"KEY_GREEN" = "绿色";

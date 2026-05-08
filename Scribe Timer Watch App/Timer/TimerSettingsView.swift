@@ -10,14 +10,15 @@ struct SettingsView: View {
     @EnvironmentObject var purchaseManager: PurchaseManager
     // 現在選択中のパターンID
     @AppStorage(PatternStore.selectedKey) private var selectedPatternId: String = DefaultPatterns.notificationAndClick.id
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     
     @AppStorage("timerShape", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var timerShape: TimerShape = .circle
     @AppStorage("inputDelay", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var inputDelay: Double = 0.4
     // パターン一覧（AppStorageにJSONで保存しても良いですが、まずは固定配列＋カスタム一時追加にしています）
     @State private var patterns: [CustomNotification]
+    @State private var isPresentedHowToView: Bool = false
+    @State private var isPresentedInputDelay: Bool = false
     
-    // セッションを使って試しに鳴らす場合は、外側から渡す or @EnvironmentObject などに置き換えてください
     var runtimeSession: WKExtendedRuntimeSession?
     
     init(initialPatterns: [CustomNotification] = DefaultPatterns.all, runtimeSession: WKExtendedRuntimeSession? = nil) {
@@ -33,10 +34,28 @@ struct SettingsView: View {
     
     var body: some View {
         List {
-            NavigationLink("Scribe Timer Pro") {
-                IAPView()
+            Button {
+                isPresentedHowToView.toggle()
+            } label: {
+                settingButtonLabel(title: "KEY_HOWTO", image: "lightbulb.led.fill", color: .yellow, isImage: false)
             }
-            .bold()
+            .navigationDestination(isPresented: $isPresentedHowToView) {
+                HintView(isPresented: $isPresentedHowToView)
+                    .navigationBarBackButtonHidden()
+            }
+            NavigationLink {
+                IAPView()
+            } label: {
+                HStack {
+                    Image("ScribeTimerIconImage")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 18, height: 18)
+                    Text("Scribe Timer Pro")
+                        .bold()
+                    Spacer()
+                }
+            }
             NavigationLink {
                 HStack {
                     Text(inputDelay, format: .number.precision(.fractionLength(0...2)))
@@ -49,11 +68,32 @@ struct SettingsView: View {
                 Stepper("", value: $inputDelay, in: 0.1...1, step: 0.1)
                     .buttonStyle(.plain)
                     .navigationTitle {
-                        Text("KEY_INPUTDELAY")
+                        Text("KEY_DELAY")
                             .foregroundStyle(tintColor.color)
                     }
+                    .disabled(!isPro)
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button("", systemImage: "questionmark") {
+                                isPresentedInputDelay.toggle()
+                            }
+                            .modify { view in
+                                if #unavailable(watchOS 26.0, ) {
+                                    view
+                                    .foregroundStyle(.white)
+                                } else {
+                                    view
+                                }
+                            }
+                        }
+                    }
+                    .sheet(isPresented: $isPresentedInputDelay) {
+                            Text("KEY_INPUTDELAY")
+                                .multilineTextAlignment(.center)
+                                .fontWeight(.semibold)
+                    }
             } label: {
-                settingButtonLabel(title: "KEY_INPUTDELAY", image: "hourglass.badge.eye", color: .orange, isImage: false)
+                settingButtonLabel(title: "KEY_DELAY", image: "hourglass.badge.eye", color: .orange, isImage: false)
             }
             NavigationLink {
                 List {
@@ -68,10 +108,7 @@ struct SettingsView: View {
                                 }
                             } label: {
                                 HStack {
-                                    VStack(alignment: .leading) {
-                                        Text(item.name)
-                                            .font(.headline)
-                                    }
+                                    Text(LocalizedStringKey(item.name))
                                     Spacer()
                                     Image(systemName: isBool ? "checkmark.circle.fill" : "circle.fill")
                                         .contentTransition(.symbolEffect(.replace))
@@ -88,7 +125,7 @@ struct SettingsView: View {
                         .foregroundStyle(tintColor.color)
                 }
             } label: {
-                settingButtonLabel(title: "KEY_ALARM_VIBRATION", image: "apple.haptics", color: .red, isImage: true)
+                settingButtonLabel(title: "KEY_TIMER_VIBRATION", image: "apple.haptics", color: .red, isImage: true)
             }
             
             NavigationLink {
@@ -154,6 +191,15 @@ struct SettingsView: View {
         }
     }
     
+}
+
+@ViewBuilder
+private func menulabel(title: String, ) -> some View {
+    HStack {
+        Text(LocalizedStringKey(title))
+        Spacer()
+        
+    }
 }
 
 @ViewBuilder

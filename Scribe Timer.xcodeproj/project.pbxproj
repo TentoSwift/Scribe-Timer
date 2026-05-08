@@ -10,9 +10,8 @@
 		2D1F3AF72F42971E00DD1B2F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1F3AF62F42971E00DD1B2F /* WidgetKit.framework */; };
 		2D1F3AF92F42971E00DD1B2F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1F3AF82F42971E00DD1B2F /* SwiftUI.framework */; };
 		2D1F3B082F42971F00DD1B2F /* scribe.widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2D1F3AF42F42971E00DD1B2F /* scribe.widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D1F3BB92F45496E00DD1B2F /* Scribe Timer Pro.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2D1F3BB82F45496E00DD1B2F /* Scribe Timer Pro.storekit */; };
 		2DA028E52F417CB000BCD36C /* Scribe Timer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2DA028E42F417CB000BCD36C /* Scribe Timer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2DA028F92F417D1200BCD36C /* Scribe Timer Pro.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2DA028F82F417D1200BCD36C /* Scribe Timer Pro.storekit */; };
-		2DA028FA2F417D1200BCD36C /* Scribe Timer Pro.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2DA028F82F417D1200BCD36C /* Scribe Timer Pro.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +61,9 @@
 		2D1F3AF62F42971E00DD1B2F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		2D1F3AF82F42971E00DD1B2F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		2D1F3B902F42995700DD1B2F /* scribe.widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scribe.widgetExtension.entitlements; sourceTree = "<group>"; };
+		2D1F3BB82F45496E00DD1B2F /* Scribe Timer Pro.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Scribe Timer Pro.storekit"; sourceTree = "<group>"; };
 		2DA028DE2F417CB000BCD36C /* Scribe Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scribe Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA028E42F417CB000BCD36C /* Scribe Timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scribe Timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DA028F82F417D1200BCD36C /* Scribe Timer Pro.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Scribe Timer Pro.storekit"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -83,6 +82,14 @@
 			);
 			target = 2D1F3AF32F42971E00DD1B2F /* scribe.widgetExtension */;
 		};
+		2D8632202F4EB6C100A4D16E /* Exceptions for "Scribe Timer Watch App" folder in "Scribe Timer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ScribeTimerappIcon.icon,
+			);
+			target = 2DA028DD2F417CB000BCD36C /* Scribe Timer */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -97,6 +104,7 @@
 		2DA028E82F417CB000BCD36C /* Scribe Timer Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				2D8632202F4EB6C100A4D16E /* Exceptions for "Scribe Timer Watch App" folder in "Scribe Timer" target */,
 				2D1F3B8F2F42977300DD1B2F /* Exceptions for "Scribe Timer Watch App" folder in "scribe.widgetExtension" target */,
 			);
 			path = "Scribe Timer Watch App";
@@ -136,8 +144,8 @@
 		2DA028D72F417CB000BCD36C = {
 			isa = PBXGroup;
 			children = (
+				2D1F3BB82F45496E00DD1B2F /* Scribe Timer Pro.storekit */,
 				2D1F3B902F42995700DD1B2F /* scribe.widgetExtension.entitlements */,
-				2DA028F82F417D1200BCD36C /* Scribe Timer Pro.storekit */,
 				2DA028E82F417CB000BCD36C /* Scribe Timer Watch App */,
 				2D1F3AFA2F42971E00DD1B2F /* scribe.widget */,
 				2D1F3AF52F42971E00DD1B2F /* Frameworks */,
@@ -249,13 +257,61 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				ko,
 				ja,
 				fi,
 				"zh-HK",
 				el,
 				it,
+				ar,
+				bg,
+				"zh-Hans",
+				"zh-Hant",
+				bn,
+				ca,
+				hr,
+				cs,
+				da,
+				nl,
+				"en-AU",
+				"en-IN",
+				"en-GB",
+				fr,
+				"fr-CA",
+				kk,
+				de,
+				gu,
+				he,
+				hi,
+				hu,
+				id,
+				kn,
+				lt,
+				ms,
+				ml,
+				mr,
+				nb,
+				or,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				ro,
+				pa,
+				ru,
+				sk,
+				sl,
+				es,
+				"es-419",
+				"es-US",
+				sv,
+				ta,
+				te,
+				th,
+				uk,
+				tr,
+				ur,
+				vi,
+				Base,
 			);
 			mainGroup = 2DA028D72F417CB000BCD36C;
 			minimizedProjectReferenceProxies = 1;
@@ -283,7 +339,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA028FA2F417D1200BCD36C /* Scribe Timer Pro.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA028F92F417D1200BCD36C /* Scribe Timer Pro.storekit in Resources */,
+				2D1F3BB92F45496E00DD1B2F /* Scribe Timer Pro.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +390,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = scribe.widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scribe.widget/Info.plist;
@@ -347,7 +402,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer.watchkitapp.scribe-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -358,7 +413,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -369,7 +424,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = scribe.widgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = scribe.widget/Info.plist;
@@ -381,7 +436,7 @@
 					"@executable_path/../../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer.watchkitapp.scribe-widget";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -393,7 +448,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -521,7 +576,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Scribe Timer Watch App/Scribe Timer Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -533,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -545,7 +600,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -557,7 +612,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Scribe Timer Watch App/Scribe Timer Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -569,7 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -582,20 +637,23 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
 		2DA028F62F417CB100BCD36C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				INFOPLIST_KEY_CFBundleDisplayName = "Scribe Timer";
-				MARKETING_VERSION = 1.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -606,13 +664,16 @@
 		2DA028F72F417CB100BCD36C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 20260307;
 				DEVELOPMENT_TEAM = LV3H7Q68W6;
 				INFOPLIST_KEY_CFBundleDisplayName = "Scribe Timer";
-				MARKETING_VERSION = 1.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tento.scribe.timer.Scribe-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;

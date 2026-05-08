@@ -9,7 +9,8 @@ import SwiftUI
 import StoreKit
 
 struct IAPView: View {
-    private let productID = "com.tento.scribe.timer_scribetimerpro"
+    @Environment(\.dismiss) private var dismiss
+    private let productID = "com.tento.scribe.timer.ScribeTimerPro"
     @State private var loaded = false
     @State private var errorText: String?
     @State private var selectionTip: Int = 0
@@ -19,15 +20,11 @@ struct IAPView: View {
         Group {
             if loaded {
                 ScrollView {
-                    HStack {
-                        Image(systemName: "heart")
-                            .foregroundStyle(.red)
-                        Image(systemName: "star")
-                            .foregroundStyle(.yellow)
-                        Image("apple.haptics")
+                    if purchaseManager.isPro {
+                            Text("KEY_PURCHASED")
+                                .bold()
+                                .foregroundStyle(.tint)
                     }
-                    .font(.headline)
-                    .bold()
 
                     ProductView(id: productID)
 
@@ -38,6 +35,45 @@ struct IAPView: View {
                     }
                     .foregroundStyle(Color.accentColor)
                     .buttonStyle(.plain)
+                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        Text("KEY_INTRODUCTION_FUNCTION")
+                            .bold()
+                        Image(systemName: "paintpalette.fill")
+                            .symbolRenderingMode(.multicolor)
+                            .font(.largeTitle)
+                            .multilineTextAlignment(.center)
+                        Text("KEY_CAN_CHANGE_COLOR")
+                            .fontWeight(.semibold)
+                        
+                        Image(systemName: "heart.fill")
+                            .font(.largeTitle)
+                            .foregroundStyle(.pink)
+                            .multilineTextAlignment(.center)
+                         Text("KEY_CAN_CHANGE_TIMERDESIGHN")
+                            .fontWeight(.semibold)
+                       
+                        Image("apple.haptics")
+                            .font(.largeTitle)
+                            .foregroundStyle(.red)
+                            .multilineTextAlignment(.center)
+                        Text("KEY_CAN_CHANGE_VIBERATION")
+                            .fontWeight(.semibold)
+                        
+                        Image("widget.smart.stack")
+                            .font(.largeTitle)
+                            .foregroundStyle(.gray)
+                            .multilineTextAlignment(.center)
+                        Text("KEY_CAN_WIDGET_TIMER")
+                            .fontWeight(.semibold)
+                        
+                        Image(systemName: "hourglass.badge.eye")
+                            .font(.largeTitle)
+                            .foregroundStyle(.orange)
+                            .multilineTextAlignment(.center)
+                        Text("KEY_CAN_CHANGE_DELAY")
+                            .fontWeight(.semibold)
+                    }
                 }
             } else if let errorText {
                 Text("KEY_ERROR_STOREKIT")
@@ -46,11 +82,14 @@ struct IAPView: View {
                 ProgressView()
             }
         }
+        .onChange(of: purchaseManager.isPro) {
+            dismiss()
+        }
         .task {
             do {
                 let products = try await Product.products(for: [productID])
                 if products.isEmpty {
-                    errorText = "error"
+                    errorText = "Product not found: \(productID)"
                 } else {
                     loaded = true
                 }

@@ -9,7 +9,7 @@
       }
     ]
   },
-  "identifier" : "C7CFE253",
+  "identifier" : "93958837",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -17,31 +17,46 @@
     {
       "displayPrice" : "6.99",
       "familyShareable" : true,
-      "internalID" : "6759210119",
+      "internalID" : "6759303675",
       "localizations" : [
         {
-          "description" : "テーマカラーやタイマーのデザインを変更可能に。ウィジェットにタイマーを表示することもできます。",
+          "description" : "Colori, stile e vibrazione personalizzabili nel widget.",
+          "displayName" : "Scribe Timer Pro",
+          "locale" : "it"
+        },
+        {
+          "description" : "색상, 디자인, 진동 설정 변경 가능. 위젯 타이머 지원",
+          "displayName" : "Scribe Timer Pro",
+          "locale" : "ko"
+        },
+        {
+          "description" : "テーマカラーやタイマーのデザインを変更可能。ウィジェットにタイマーを表示。",
           "displayName" : "Scribe Timer Pro",
           "locale" : "ja"
+        },
+        {
+          "description" : "Customize colors, styles, vibration. Widget timer",
+          "displayName" : "Scribe Timer Pro",
+          "locale" : "en_US"
         }
       ],
-      "productID" : "com.tento.scribe.timer_scribetimerpro",
+      "productID" : "com.tento.scribe.timer.ScribeTimerPro",
       "referenceName" : "Scribe Timer Pro",
       "type" : "NonConsumable"
     }
   ],
   "settings" : {
-    "_applicationInternalID" : "6759210024",
+    "_applicationInternalID" : "6759303566",
     "_askToBuyEnabled" : false,
     "_billingGracePeriodEnabled" : false,
     "_billingIssuesEnabled" : false,
     "_developerTeamID" : "LV3H7Q68W6",
     "_disableDialogs" : false,
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 792821012.30078495,
-    "_locale" : "en_US",
+    "_lastSynchronizedDate" : 793069936.58281004,
+    "_locale" : "ja",
     "_renewalBillingIssuesEnabled" : false,
-    "_storefront" : "USA",
+    "_storefront" : "JPN",
     "_storeKitErrors" : [
 
     ],

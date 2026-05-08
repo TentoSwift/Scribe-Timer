@@ -3,10 +3,24 @@
   ScribbleTimer
 
   Created by 石野天斗 on 2026/02/11.
-  
 */
 
 "KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Tervetuloa\nScribe Timeriin";
+"KEY_INTRODUCTION" = "Aseta ajastin helposti.";
+"KEY_ONBORDING1" = "Syötä numerot.";
+"KEY_ONBORDING2" = "Syötä numerot yksi kerrallaan.";
+"KEY_ONBORDING3" = "Kaksoisnapauta käynnistääksesi ajastimen.";
+"KEY_START_ONBORDING" = "Aloita";
+"KEY_NEXT" = "Seuraava";
+"KEY_DONTNOW" = "Ei nyt";
+"KEY_INTRODUCTION_FUNCTION" = "Ominaisuudet";
+"KEY_CAN_CHANGE_COLOR" = "Vaihda teemaväriä";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Ajastimen ulkoasun muuttaminen";
+"KEY_CAN_CHANGE_VIBRATION" = "Mukauta ajastimen värinää";
+"KEY_CAN_WIDGET_TIMER" = "Näytä ajastin widgetissä";
+"KEY_CAN_CHANGE_DELAY" = "Säädä tunnistusviivettä";
 
 "KEY_TIMER" = "Ajastin";
 "KEY_EDDIT" = "Muokkaa";
@@ -16,22 +30,37 @@
 "KEY_HOURS" = "H";
 "KEY_MINUTES" = "M";
 "KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Tunnit";
+"KEY_MINUTES_LONG" = "Minuutit";
+"KEY_SECONDS_LONG" = "Sekunnit";
 
 "KEY_SETTINGS" = "Asetukset";
-"KEY_ALARM_VIBRATION" = "Hälytyksen värinä";
-
+"KEY_HOWTO" = "Käyttöohje";
+"KEY_PURCHASED" = "Jo ostettu";
+"KEY_TIMER_VIBRATION" = "Ajastimen värinä";
+"KEY_VIBRATION" = "Värinä";
+"KEY_INPUTDELAY" = "Tunnistusviive";
+"KEY_DELAY" = "Viive";
 "KEY_ERROR_STOREKIT" = "Virhe";
 "KEY_RESTORATION" = "Palauta";
 
 "KEY_ALEART_24OVER" = "Yli 24 tunnin ajastinta ei voi asettaa.";
 
 "KEY_CANCEL" = "Peruuta";
-"KEY_END" = "Lopeta";
+"KEY_END" = "Loppu";
 
-"KEY_TIMERSHAPE" = "Ajastimen muotoilu";
+"KEY_TIMERSHAPE" = "Ajastimen muoto";
+"KEY_DESIGHN" = "Muotoilu";
 "KEY_CIRCLE" = "Ympyrä";
 "KEY_STAR" = "Tähti";
 "KEY_HEART" = "Sydän";
+
+"KEY_DEFAULT" = "Oletus";
+"KEY_WEAK" = "Pehmeä";
+"KEY_STRESS" = "Voimakas";
+"KEY_STOP" = "Pysäytys";
+"KEY_MIX" = "Sekoitus";
+"KEY_RETRY" = "Nopea";
 
 "KEY_PRIMARYCOLOR" = "Teemaväri";
 "KEY_COLOR" = "Väri";
@@ -42,5 +71,5 @@
 "KEY_RED" = "Punainen";
 "KEY_ORANGE" = "Oranssi";
 "KEY_YELLOW" = "Keltainen";
-"KEY_YELLOWGREEN" = "Keltaisen vihreä";
+"KEY_YELLOWGREEN" = "Kelta-vihreä";
 "KEY_GREEN" = "Vihreä";

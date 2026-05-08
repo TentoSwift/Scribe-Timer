@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Scribe Timer iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>scribe.widgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2D1F3AF32F42971E00DD1B2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2DA028DD2F417CB000BCD36C</key>
 		<dict>
 			<key>primary</key>

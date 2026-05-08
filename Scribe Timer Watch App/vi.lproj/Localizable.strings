@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Vietnamese Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Chào mừng đến với\nScribe Timer";
+"KEY_INTRODUCTION" = "Dễ dàng thiết lập bộ hẹn giờ.";
+"KEY_ONBORDING1" = "Nhập các số.";
+"KEY_ONBORDING2" = "Nhập các số từng chữ số một.";
+"KEY_ONBORDING3" = "Chạm hai lần để bắt đầu bộ hẹn giờ.";
+"KEY_START_ONBORDING" = "Bắt đầu";
+"KEY_NEXT" = "Tiếp theo";
+"KEY_DONTNOW" = "Không phải bây giờ";
+"KEY_INTRODUCTION_FUNCTION" = "Giới thiệu tính năng";
+"KEY_CAN_CHANGE_COLOR" = "Thay đổi màu chủ đề";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Thay đổi thiết kế bộ hẹn giờ";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Thay đổi rung của bộ hẹn giờ";
+"KEY_CAN_WIDGET_TIMER" = "Hiển thị bộ hẹn giờ trên tiện ích";
+"KEY_CAN_CHANGE_DELAY" = "Điều chỉnh thời gian nhận diện đầu vào";
+
+"KEY_TIMER" = "Bộ hẹn giờ";
+"KEY_EDDIT" = "Chỉnh sửa";
+"KEY_DONE" = "Hoàn tất";
+"KEY_START" = "Bắt đầu";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Giờ";
+"KEY_MINUTES_LONG" = "Phút";
+"KEY_SECONDS_LONG" = "Giây";
+
+"KEY_SETTINGS" = "Cài đặt";
+"KEY_HOWTO" = "Cách sử dụng";
+"KEY_PURCHASED" = "Đã mua";
+"KEY_TIMER_VIBRATION" = "Rung bộ hẹn giờ";
+"KEY_VIBRATION" = "Rung";
+"KEY_INPUTDELAY" = "Khoảng nhận diện";
+"KEY_DELAY" = "Khoảng";
+"KEY_ERROR_STOREKIT" = "Lỗi";
+"KEY_RESTORATION" = "Khôi phục";
+
+"KEY_ALEART_24OVER" = "Không thể đặt bộ hẹn giờ quá 24 giờ.";
+
+"KEY_CANCEL" = "Hủy";
+"KEY_END" = "Hết";
+
+"KEY_TIMERSHAPE" = "Thiết kế bộ hẹn giờ";
+"KEY_DESIGHN" = "Thiết kế";
+"KEY_CIRCLE" = "Hình tròn";
+"KEY_STAR" = "Ngôi sao";
+"KEY_HEART" = "Trái tim";
+
+"KEY_DEFAULT" = "Mặc định";
+"KEY_WEAK" = "Nhẹ";
+"KEY_STRESS" = "Mạnh";
+"KEY_STOP" = "Dừng";
+"KEY_MIX" = "Kết hợp";
+"KEY_RETRY" = "Nhanh";
+
+"KEY_PRIMARYCOLOR" = "Màu chủ đề";
+"KEY_COLOR" = "Màu";
+"KEY_CYAN" = "Lục lam";
+"KEY_BLUE" = "Xanh dương";
+"KEY_PURPLE" = "Tím";
+"KEY_PINK" = "Hồng";
+"KEY_RED" = "Đỏ";
+"KEY_ORANGE" = "Cam";
+"KEY_YELLOW" = "Vàng";
+"KEY_YELLOWGREEN" = "Vàng lục";
+"KEY_GREEN" = "Xanh lá";

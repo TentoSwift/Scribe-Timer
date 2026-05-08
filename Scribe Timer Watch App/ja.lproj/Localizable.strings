@@ -8,6 +8,22 @@
 
 "KEY_SCRIBETIMER" = "Scribe Timer";
 
+"KEY_HELLO_SCRIBETIMER" = "ようこそScribe\nTimerへ";
+"KEY_INTRODUCTION" = "簡単にタイマーを設定しましょう。";
+"KEY_ONBORDING1" = "数字を描きます。";
+"KEY_ONBORDING2" = "数字は1桁ずつ入力します。";
+"KEY_ONBORDING3" = "ダブルタップでタイマーを開始します。";
+"KEY_START_ONBORDING" = "始める";
+"KEY_NEXT" = "次へ";
+"KEY_DONTNOW" = "今はしない";
+"KEY_INTRODUCTION_FUNCTION" = "機能の紹介";
+"KEY_CAN_CHANGE_COLOR" = "テーマカラーの変更";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "タイマーのデザインの変更";
+
+"KEY_CAN_CHANGE_VIBERATION" = "タイマーの振動の変更";
+"KEY_CAN_WIDGET_TIMER" = "ウィジェットにタイマーを表示";
+"KEY_CAN_CHANGE_DELAY" = "入力の認識時間の調整";
+
 "KEY_TIMER" = "タイマー";
 "KEY_EDDIT" = "編集";
 "KEY_DONE" = "完了";
@@ -16,12 +32,17 @@
 "KEY_HOURS" = "時間";
 "KEY_MINUTES" = "分";
 "KEY_SECONDS" = "秒";
+"KEY_HOURS_LONG" = "時間";
+"KEY_MINUTES_LONG" = "分";
+"KEY_SECONDS_LONG" = "秒";
 
 "KEY_SETTINGS" = "設定";
-"KEY_ALARM_VIBRATION" = "アラームの振動";
+"KEY_HOWTO" = "使い方";
+"KEY_PURCHASED" = "すでに購入済み";
+"KEY_TIMER_VIBRATION" = "タイマーの振動";
 "KEY_VIBRATION" = "振動";
-"KEY_INPUTDELAY" = "認識間隔";
-"KEY_DELAY" = "間隔";
+"KEY_INPUTDELAY" = "認識間隔とは数字を描いてからその数字が入力され、描いた数字が消えるまでの時間のことを指します。";
+"KEY_DELAY" = "認識間隔";
 "KEY_ERROR_STOREKIT" = "エラー";
 "KEY_RESTORATION" = "復元";
 
@@ -37,8 +58,11 @@
 "KEY_HEART" = "ハート";
 
 "KEY_DEFAULT" = "デフォルト";
-"KEY_WEAK" = "弱い";
-"KEY_STRESS" = "強弱";
+"KEY_WEAK" = "ソフト";
+"KEY_STRESS" = "ストロング";
+"KEY_STOP" = "クリック";
+"KEY_MIX" = "ミックス";
+"KEY_RETRY" = "クイック";
 
 "KEY_PRIMARYCOLOR" = "テーマカラー";
 "KEY_COLOR" = "カラー";

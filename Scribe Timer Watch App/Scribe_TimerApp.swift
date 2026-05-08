@@ -15,7 +15,7 @@ struct ScribbleTimer_Watch_AppApp: App {
     @WKApplicationDelegateAdaptor(ExtensionDelegate.self) var appDelegate
     @StateObject private var runtime = ExtendedRuntimeController()
     @StateObject private var purchaseManager = PurchaseManager()
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     
     @AppStorage("isStartingTimer", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var isStartingTimer: Bool = false
     

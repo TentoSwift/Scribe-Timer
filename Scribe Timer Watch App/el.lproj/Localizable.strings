@@ -3,35 +3,64 @@
   ScribbleTimer
 
   Created by 石野天斗 on 2026/02/11.
-  
 */
 
 "KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Καλώς ήρθατε στο\nScribe Timer";
+"KEY_INTRODUCTION" = "Ρυθμίστε εύκολα το χρονόμετρό σας.";
+"KEY_ONBORDING1" = "Εισαγάγετε αριθμούς.";
+"KEY_ONBORDING2" = "Εισαγάγετε τα ψηφία ένα-ένα.";
+"KEY_ONBORDING3" = "Διπλό πάτημα για εκκίνηση του χρονομέτρου.";
+"KEY_START_ONBORDING" = "Έναρξη";
+"KEY_NEXT" = "Επόμενο";
+"KEY_DONTNOW" = "Όχι τώρα";
+"KEY_INTRODUCTION_FUNCTION" = "Λειτουργίες";
+"KEY_CAN_CHANGE_COLOR" = "Αλλαγή χρώματος θέματος";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Αλλαγή σχεδίασης χρονομέτρου";
+"KEY_CAN_CHANGE_VIBRATION" = "Προσαρμογή δόνησης χρονομέτρου";
+"KEY_CAN_WIDGET_TIMER" = "Εμφάνιση χρονομέτρου σε widget";
+"KEY_CAN_CHANGE_DELAY" = "Ρύθμιση καθυστέρησης αναγνώρισης";
 
 "KEY_TIMER" = "Χρονόμετρο";
 "KEY_EDDIT" = "Επεξεργασία";
 "KEY_DONE" = "Τέλος";
 "KEY_START" = "Έναρξη";
 
-"KEY_HOURS" = "H";
-"KEY_MINUTES" = "M";
-"KEY_SECONDS" = "S";
+"KEY_HOURS" = "ω";
+"KEY_MINUTES" = "λ";
+"KEY_SECONDS" = "δ";
+"KEY_HOURS_LONG" = "Ώρες";
+"KEY_MINUTES_LONG" = "Λεπτά";
+"KEY_SECONDS_LONG" = "Δευτερόλεπτα";
 
 "KEY_SETTINGS" = "Ρυθμίσεις";
-"KEY_ALARM_VIBRATION" = "Δόνηση συναγερμού";
-
+"KEY_HOWTO" = "Τρόπος χρήσης";
+"KEY_PURCHASED" = "Ήδη αγορασμένο";
+"KEY_TIMER_VIBRATION" = "Δόνηση χρονομέτρου";
+"KEY_VIBRATION" = "Δόνηση";
+"KEY_INPUTDELAY" = "Η καθυστέρηση αναγνώρισης αναφέρεται στον χρόνο μεταξύ της σχεδίασης ενός αριθμού, της εισαγωγής του και της εξαφάνισής του από την οθόνη.";
+"KEY_DELAY" = "Καθυστέρηση";
 "KEY_ERROR_STOREKIT" = "Σφάλμα";
 "KEY_RESTORATION" = "Επαναφορά";
 
-"KEY_ALEART_24OVER" = "Δεν μπορείτε να ορίσετε χρονόμετρο πάνω από 24 ώρες.";
+"KEY_ALEART_24OVER" = "Δεν μπορείτε να ορίσετε χρονόμετρο άνω των 24 ωρών.";
 
 "KEY_CANCEL" = "Ακύρωση";
 "KEY_END" = "Λήξη";
 
-"KEY_TIMERSHAPE" = "Σχεδιασμός χρονόμετρου";
+"KEY_TIMERSHAPE" = "Σχεδιασμός χρονομέτρου";
+"KEY_DESIGHN" = "Σχεδιασμός";
 "KEY_CIRCLE" = "Κύκλος";
 "KEY_STAR" = "Αστέρι";
 "KEY_HEART" = "Καρδιά";
+
+"KEY_DEFAULT" = "Προεπιλογή";
+"KEY_WEAK" = "Απαλό";
+"KEY_STRESS" = "Ισχυρό";
+"KEY_STOP" = "Διακοπή";
+"KEY_MIX" = "Μείξη";
+"KEY_RETRY" = "Γρήγορο";
 
 "KEY_PRIMARYCOLOR" = "Χρώμα θέματος";
 "KEY_COLOR" = "Χρώμα";

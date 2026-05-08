@@ -13,7 +13,7 @@ struct TimerView: View {
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.dismiss) private var dismiss
     
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     
     @AppStorage("timerShape", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var timerShape: TimerShape = .circle
     
@@ -217,19 +217,38 @@ struct TimerView: View {
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
                     HStack {
-                        Button {
-                            runtime.cancelSmartAlarm()
-                            timer.upstream.connect().cancel()
-                            DispatchQueue.main.async {
-                                dismiss()
+                            Button {
                                 runtime.cancelSmartAlarm()
+                                timer.upstream.connect().cancel()
+                                DispatchQueue.main.async {
+                                    dismiss()
+                                    runtime.cancelSmartAlarm()
+                                }
+                            } label: {
+                                Label("KEY_CANCEL", systemImage: "xmark")
+                                    .foregroundStyle(uiState == .running ? .black : .white)
                             }
-                        } label: {
-                            Label("KEY_CANCEL", systemImage: "xmark")
-                                .foregroundStyle(uiState == .running ? .black : .white)
-                        }
-                        .tint(.white.opacity(uiState == .running ? 0.8 : 0))
-                        .handGestureShortcut(.primaryAction, isEnabled: movement == "再度")
+                            .tint(.white.opacity(uiState == .running ? 0.8 : 0))
+                            .modify { view in
+                                if movement == "再度" {
+                                    view
+                                        .handGestureShortcut(.primaryAction)
+                                        .accessibilityQuickAction(style: .outline) {
+                                            Button {
+                                                runtime.cancelSmartAlarm()
+                                                timer.upstream.connect().cancel()
+                                                DispatchQueue.main.async {
+                                                    dismiss()
+                                                    runtime.cancelSmartAlarm()
+                                                }
+                                            } label: {
+                                                Label("KEY_CANCEL", systemImage: "xmark")
+                                            }
+                                        }
+                                } else {
+                                    view
+                                }
+                            }
                         Spacer()
                         if isPossible {
                             Button {
@@ -261,6 +280,8 @@ struct TimerView: View {
                         }
                     }
                 }
+                
+                
             }
         }
         .navigationTitle("")

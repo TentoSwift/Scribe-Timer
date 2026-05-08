@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Lithuanian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Sveiki atvykę į\nScribe Timer";
+"KEY_INTRODUCTION" = "Lengvai nustatykite laikmatį.";
+"KEY_ONBORDING1" = "Įveskite skaičius.";
+"KEY_ONBORDING2" = "Skaičius įveskite po vieną skaitmenį.";
+"KEY_ONBORDING3" = "Dukart bakstelėkite, kad paleistumėte laikmatį.";
+"KEY_START_ONBORDING" = "Pradėti";
+"KEY_NEXT" = "Toliau";
+"KEY_DONTNOW" = "Ne dabar";
+"KEY_INTRODUCTION_FUNCTION" = "Funkcijų apžvalga";
+"KEY_CAN_CHANGE_COLOR" = "Keisti temos spalvą";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Keisti laikmačio dizainą";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Keisti laikmačio vibraciją";
+"KEY_CAN_WIDGET_TIMER" = "Rodyti laikmatį valdiklyje";
+"KEY_CAN_CHANGE_DELAY" = "Reguliuoti įvesties atpažinimo laiką";
+
+"KEY_TIMER" = "Laikmatis";
+"KEY_EDDIT" = "Redaguoti";
+"KEY_DONE" = "Atlikta";
+"KEY_START" = "Pradėti";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Valandos";
+"KEY_MINUTES_LONG" = "Minutės";
+"KEY_SECONDS_LONG" = "Sekundės";
+
+"KEY_SETTINGS" = "Nustatymai";
+"KEY_HOWTO" = "Kaip naudoti";
+"KEY_PURCHASED" = "Jau įsigyta";
+"KEY_TIMER_VIBRATION" = "Laikmačio vibracija";
+"KEY_VIBRATION" = "Vibracija";
+"KEY_INPUTDELAY" = "Atpažinimo intervalas";
+"KEY_DELAY" = "Intervalas";
+"KEY_ERROR_STOREKIT" = "Klaida";
+"KEY_RESTORATION" = "Atkurti";
+
+"KEY_ALEART_24OVER" = "Negalima nustatyti laikmačio ilgesnio nei 24 valandos.";
+
+"KEY_CANCEL" = "Atšaukti";
+"KEY_END" = "Baigti";
+
+"KEY_TIMERSHAPE" = "Laikmačio dizainas";
+"KEY_DESIGHN" = "Dizainas";
+"KEY_CIRCLE" = "Apskritimas";
+"KEY_STAR" = "Žvaigždė";
+"KEY_HEART" = "Širdis";
+
+"KEY_DEFAULT" = "Numatytasis";
+"KEY_WEAK" = "Švelnus";
+"KEY_STRESS" = "Stiprus";
+"KEY_STOP" = "Sustabdyti";
+"KEY_MIX" = "Mišrus";
+"KEY_RETRY" = "Greitas";
+
+"KEY_PRIMARYCOLOR" = "Temos spalva";
+"KEY_COLOR" = "Spalva";
+"KEY_CYAN" = "Žydra";
+"KEY_BLUE" = "Mėlyna";
+"KEY_PURPLE" = "Violetinė";
+"KEY_PINK" = "Rožinė";
+"KEY_RED" = "Raudona";
+"KEY_ORANGE" = "Oranžinė";
+"KEY_YELLOW" = "Geltona";
+"KEY_YELLOWGREEN" = "Geltonai žalia";
+"KEY_GREEN" = "Žalia";

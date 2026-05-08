@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Punjabi Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer ਵਿੱਚ\nਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ";
+"KEY_INTRODUCTION" = "ਟਾਈਮਰ ਆਸਾਨੀ ਨਾਲ ਸੈਟ ਕਰੋ।";
+"KEY_ONBORDING1" = "ਅੰਕ ਦਰਜ ਕਰੋ।";
+"KEY_ONBORDING2" = "ਅੰਕ ਇੱਕ-ਇੱਕ ਕਰਕੇ ਦਰਜ ਕਰੋ।";
+"KEY_ONBORDING3" = "ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਡਬਲ ਟੈਪ ਕਰੋ।";
+"KEY_START_ONBORDING" = "ਸ਼ੁਰੂ ਕਰੋ";
+"KEY_NEXT" = "ਅੱਗੇ";
+"KEY_DONTNOW" = "ਹੁਣ ਨਹੀਂ";
+"KEY_INTRODUCTION_FUNCTION" = "ਖੂਬੀਆਂ ਦੀ ਜਾਣਕਾਰੀ";
+"KEY_CAN_CHANGE_COLOR" = "ਥੀਮ ਦਾ ਰੰਗ ਬਦਲੋ";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "ਟਾਈਮਰ ਦਾ ਡਿਜ਼ਾਈਨ ਬਦਲੋ";
+
+"KEY_CAN_CHANGE_VIBERATION" = "ਟਾਈਮਰ ਦੀ ਕੰਪਨ ਬਦਲੋ";
+"KEY_CAN_WIDGET_TIMER" = "ਵਿਜੇਟ ਵਿੱਚ ਟਾਈਮਰ ਦਿਖਾਓ";
+"KEY_CAN_CHANGE_DELAY" = "ਇਨਪੁੱਟ ਪਛਾਣ ਸਮਾਂ ਠੀਕ ਕਰੋ";
+
+"KEY_TIMER" = "ਟਾਈਮਰ";
+"KEY_EDDIT" = "ਸੰਪਾਦਨ";
+"KEY_DONE" = "ਮੁਕੰਮਲ";
+"KEY_START" = "ਸ਼ੁਰੂ";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "ਘੰਟੇ";
+"KEY_MINUTES_LONG" = "ਮਿੰਟ";
+"KEY_SECONDS_LONG" = "ਸਕਿੰਟ";
+
+"KEY_SETTINGS" = "ਸੈਟਿੰਗਜ਼";
+"KEY_HOWTO" = "ਕਿਵੇਂ ਵਰਤਣਾ ਹੈ";
+"KEY_PURCHASED" = "ਪਹਿਲਾਂ ਹੀ ਖਰੀਦਿਆ ਗਿਆ";
+"KEY_TIMER_VIBRATION" = "ਟਾਈਮਰ ਕੰਪਨ";
+"KEY_VIBRATION" = "ਕੰਪਨ";
+"KEY_INPUTDELAY" = "ਪਛਾਣ ਅੰਤਰਾਲ";
+"KEY_DELAY" = "ਅੰਤਰਾਲ";
+"KEY_ERROR_STOREKIT" = "ਗਲਤੀ";
+"KEY_RESTORATION" = "ਮੁੜ-ਸਥਾਪਿਤ ਕਰੋ";
+
+"KEY_ALEART_24OVER" = "24 ਘੰਟਿਆਂ ਤੋਂ ਵੱਧ ਦਾ ਟਾਈਮਰ ਸੈਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।";
+
+"KEY_CANCEL" = "ਰੱਦ ਕਰੋ";
+"KEY_END" = "ਖਤਮ";
+
+"KEY_TIMERSHAPE" = "ਟਾਈਮਰ ਡਿਜ਼ਾਈਨ";
+"KEY_DESIGHN" = "ਡਿਜ਼ਾਈਨ";
+"KEY_CIRCLE" = "ਗੋਲ";
+"KEY_STAR" = "ਤਾਰਾ";
+"KEY_HEART" = "ਦਿਲ";
+
+"KEY_DEFAULT" = "ਡਿਫਾਲਟ";
+"KEY_WEAK" = "ਹੌਲਾ";
+"KEY_STRESS" = "ਮਜ਼ਬੂਤ";
+"KEY_STOP" = "ਰੋਕੋ";
+"KEY_MIX" = "ਮਿਸ਼ਰਤ";
+"KEY_RETRY" = "ਤੇਜ਼";
+
+"KEY_PRIMARYCOLOR" = "ਥੀਮ ਰੰਗ";
+"KEY_COLOR" = "ਰੰਗ";
+"KEY_CYAN" = "ਸਿਆਨ";
+"KEY_BLUE" = "ਨੀਲਾ";
+"KEY_PURPLE" = "ਜਾਮਨੀ";
+"KEY_PINK" = "ਗੁਲਾਬੀ";
+"KEY_RED" = "ਲਾਲ";
+"KEY_ORANGE" = "ਨਾਰੰਗੀ";
+"KEY_YELLOW" = "ਪੀਲਾ";
+"KEY_YELLOWGREEN" = "ਪੀਲਾ-ਹਰਾ";
+"KEY_GREEN" = "ਹਰਾ";

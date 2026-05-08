@@ -39,30 +39,13 @@ struct SimpleEntry: TimelineEntry {
 
 struct ScribbleAlarmWidgetEntryView : View {
     var entry: Provider.Entry
-    
-    var images: [Image]
-
-        init(entry: Provider.Entry) {
-            self.entry = entry
-            self.images = [0, 33, 50, 67, 100, 67, 50, 33].map { i in
-                Image(systemName: "gauge.with.dots.needle.\(i)percent")
-            }
-        }
-    
-    let ud = UserDefaults(suiteName: "group.com.tento.scribe.timer")
     @AppStorage("scheduledDateWidet", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var scheduledDateWidet: Date = Date()
     @AppStorage("ScribeTimerPro", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var isScribeTimerPro: Bool = false
     
     @Environment(\.widgetFamily) private var widgetFamily
-    @Environment(\.isLuminanceReduced) private var isLum
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     
     @AppStorage("isStartingTimer", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var isStartingTimer: Bool = false
-
-    private var clampedInterval: TimeInterval {
-        guard let scheduled = entry.scheduledDate else { return 0 }
-        return max(0, scheduled.timeIntervalSince(Date()))
-    }
 
     private var timerEndDate: Date {
         guard let scheduled = entry.scheduledDate else { return Date() }
@@ -85,11 +68,9 @@ struct ScribbleAlarmWidgetEntryView : View {
     
     @ViewBuilder
     func accessoryInlineView() -> some View {
-        GeometryReader { proxy in
-            let size = proxy.size.width
             if isStartingTimer {
-                    Image(systemName: "gauge.with.dots.needle.0percent")
-                        .font(.system(size: size * 0.9))
+                    Image(systemName: "timer")
+                        .font(.largeTitle)
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                         .foregroundStyle(.secondary)
                 if isScribeTimerPro {
@@ -107,7 +88,6 @@ struct ScribbleAlarmWidgetEntryView : View {
                 }
                 .widgetAccentable()
             }
-        }
     }
     
     @ViewBuilder
@@ -129,44 +109,13 @@ struct ScribbleAlarmWidgetEntryView : View {
     
     @ViewBuilder
     func conerView() -> some View {
-        GeometryReader { proxy in
-            let size = min(proxy.size.width, proxy.size.height)
-            let isSmall = proxy.size.width < 40
 
             Group {
-                if isStartingTimer && size < 45 {
-                    Image(systemName: "timer")
-                            .font(.system(size: size * 0.85))
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                            .foregroundStyle(tintColor.color)
-                            .widgetAccentable()
-                } else {
-                    if isStartingTimer && isScribeTimerPro {
-                        ZStack {
-                            Text(
-                                timerInterval: Date()...timerEndDate,
-                                countsDown: true,
-                                showsHours: true
-                            )
-                            .font(.system(size: 10))
-                            .foregroundStyle(.black)
-                            .monospacedDigit()
-                            .frame(width: size, height: size, alignment: .center)
-                            .multilineTextAlignment(.center)
-                            
-                           Circle()
-                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
-                                .widgetAccentable()
-                        }
-
-                    } else {
                         Image(systemName: "scribble.variable")
                             .foregroundStyle(tintColor.color)
                             .font(.largeTitle)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                             .widgetAccentable()
-                    }
-                }
             }
             .widgetLabel {
                 if isStartingTimer, entry.scheduledDate != nil && isScribeTimerPro {
@@ -176,7 +125,6 @@ struct ScribbleAlarmWidgetEntryView : View {
                     )
                 }
             }
-        }
     }
     
     @ViewBuilder

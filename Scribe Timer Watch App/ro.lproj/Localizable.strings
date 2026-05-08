@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Romanian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Bine ai venit la\nScribe Timer";
+"KEY_INTRODUCTION" = "Setează ușor un cronometru.";
+"KEY_ONBORDING1" = "Introdu numere.";
+"KEY_ONBORDING2" = "Introdu numerele cifră cu cifră.";
+"KEY_ONBORDING3" = "Atinge de două ori pentru a porni cronometrul.";
+"KEY_START_ONBORDING" = "Începe";
+"KEY_NEXT" = "Următorul";
+"KEY_DONTNOW" = "Nu acum";
+"KEY_INTRODUCTION_FUNCTION" = "Prezentarea funcțiilor";
+"KEY_CAN_CHANGE_COLOR" = "Schimbă culoarea temei";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Schimbă designul cronometrului";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Schimbă vibrația cronometrului";
+"KEY_CAN_WIDGET_TIMER" = "Afișează cronometrul în widget";
+"KEY_CAN_CHANGE_DELAY" = "Ajustează timpul de recunoaștere a introducerii";
+
+"KEY_TIMER" = "Cronometru";
+"KEY_EDDIT" = "Editează";
+"KEY_DONE" = "Gata";
+"KEY_START" = "Pornește";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Ore";
+"KEY_MINUTES_LONG" = "Minute";
+"KEY_SECONDS_LONG" = "Secunde";
+
+"KEY_SETTINGS" = "Setări";
+"KEY_HOWTO" = "Cum se utilizează";
+"KEY_PURCHASED" = "Deja achiziționat";
+"KEY_TIMER_VIBRATION" = "Vibrația cronometrului";
+"KEY_VIBRATION" = "Vibrație";
+"KEY_INPUTDELAY" = "Interval de recunoaștere";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Eroare";
+"KEY_RESTORATION" = "Restabilește";
+
+"KEY_ALEART_24OVER" = "Nu poți seta un cronometru mai lung de 24 de ore.";
+
+"KEY_CANCEL" = "Anulează";
+"KEY_END" = "Sfârșit";
+
+"KEY_TIMERSHAPE" = "Designul cronometrului";
+"KEY_DESIGHN" = "Design";
+"KEY_CIRCLE" = "Cerc";
+"KEY_STAR" = "Stea";
+"KEY_HEART" = "Inimă";
+
+"KEY_DEFAULT" = "Implicit";
+"KEY_WEAK" = "Ușor";
+"KEY_STRESS" = "Puternic";
+"KEY_STOP" = "Oprește";
+"KEY_MIX" = "Mixt";
+"KEY_RETRY" = "Rapid";
+
+"KEY_PRIMARYCOLOR" = "Culoarea temei";
+"KEY_COLOR" = "Culoare";
+"KEY_CYAN" = "Cian";
+"KEY_BLUE" = "Albastru";
+"KEY_PURPLE" = "Mov";
+"KEY_PINK" = "Roz";
+"KEY_RED" = "Roșu";
+"KEY_ORANGE" = "Portocaliu";
+"KEY_YELLOW" = "Galben";
+"KEY_YELLOWGREEN" = "Galben-verzui";
+"KEY_GREEN" = "Verde";

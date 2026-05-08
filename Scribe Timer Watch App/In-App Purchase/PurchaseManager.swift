@@ -14,7 +14,7 @@ final class PurchaseManager: ObservableObject {
     @AppStorage("ScribeTimerPro", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var isScribeTimerPro: Bool = false
     @Published var isPro: Bool = false
     
-    private let productID = "com.tento.scribe.timer_scribetimerpro"
+    private let productID = "com.tento.scribe.timer.ScribeTimerPro"
     
     init() {
         Task {

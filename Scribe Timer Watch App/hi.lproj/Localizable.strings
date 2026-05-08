@@ -1,0 +1,77 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Hindi Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer में\nआपका स्वागत है";
+"KEY_INTRODUCTION" = "आसानी से टाइमर सेट करें।";
+"KEY_ONBORDING1" = "संख्याएँ दर्ज करें।";
+"KEY_ONBORDING2" = "संख्याएँ एक-एक अंक करके दर्ज करें।";
+"KEY_ONBORDING3" = "टाइमर शुरू करने के लिए डबल टैप करें।";
+"KEY_START_ONBORDING" = "शुरू करें";
+"KEY_NEXT" = "आगे";
+"KEY_DONTNOW" = "अभी नहीं";
+"KEY_INTRODUCTION_FUNCTION" = "विशेषताओं का परिचय";
+"KEY_CAN_CHANGE_COLOR" = "थीम का रंग बदलें";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "टाइमर का डिज़ाइन बदलें";
+
+"KEY_CAN_CHANGE_VIBERATION" = "टाइमर की वाइब्रेशन बदलें";
+"KEY_CAN_WIDGET_TIMER" = "विजेट में टाइमर दिखाएँ";
+"KEY_CAN_CHANGE_DELAY" = "इनपुट पहचान समय समायोजित करें";
+
+"KEY_TIMER" = "टाइमर";
+"KEY_EDDIT" = "संपादित करें";
+"KEY_DONE" = "पूर्ण";
+"KEY_START" = "प्रारंभ";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "घंटे";
+"KEY_MINUTES_LONG" = "मिनट";
+"KEY_SECONDS_LONG" = "सेकंड";
+
+"KEY_SETTINGS" = "सेटिंग्स";
+"KEY_HOWTO" = "कैसे उपयोग करें";
+"KEY_PURCHASED" = "पहले से खरीदा गया";
+"KEY_TIMER_VIBRATION" = "टाइमर वाइब्रेशन";
+"KEY_VIBRATION" = "वाइब्रेशन";
+"KEY_INPUTDELAY" = "पहचान अंतराल";
+"KEY_DELAY" = "अंतराल";
+"KEY_ERROR_STOREKIT" = "त्रुटि";
+"KEY_RESTORATION" = "पुनर्स्थापित करें";
+
+"KEY_ALEART_24OVER" = "24 घंटे से अधिक का टाइमर सेट नहीं किया जा सकता।";
+
+"KEY_CANCEL" = "रद्द करें";
+"KEY_END" = "खत्म";
+
+"KEY_TIMERSHAPE" = "टाइमर डिज़ाइन";
+"KEY_DESIGHN" = "डिज़ाइन";
+"KEY_CIRCLE" = "वृत्त";
+"KEY_STAR" = "तारा";
+"KEY_HEART" = "दिल";
+
+"KEY_DEFAULT" = "डिफ़ॉल्ट";
+"KEY_WEAK" = "हल्का";
+"KEY_STRESS" = "मजबूत";
+"KEY_STOP" = "रोकें";
+"KEY_MIX" = "मिश्रित";
+"KEY_RETRY" = "तेज़";
+
+"KEY_PRIMARYCOLOR" = "थीम रंग";
+"KEY_COLOR" = "रंग";
+"KEY_CYAN" = "सियान";
+"KEY_BLUE" = "नीला";
+"KEY_PURPLE" = "बैंगनी";
+"KEY_PINK" = "गुलाबी";
+"KEY_RED" = "लाल";
+"KEY_ORANGE" = "नारंगी";
+"KEY_YELLOW" = "पीला";
+"KEY_YELLOWGREEN" = "पीला-हरा";
+"KEY_GREEN" = "हरा";
+

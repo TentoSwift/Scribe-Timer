@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Polish Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Witamy w\nScribe Timer";
+"KEY_INTRODUCTION" = "Łatwo ustaw timer.";
+"KEY_ONBORDING1" = "Wprowadź liczby.";
+"KEY_ONBORDING2" = "Wprowadzaj liczby po jednej cyfrze.";
+"KEY_ONBORDING3" = "Stuknij dwukrotnie, aby uruchomić timer.";
+"KEY_START_ONBORDING" = "Rozpocznij";
+"KEY_NEXT" = "Dalej";
+"KEY_DONTNOW" = "Nie teraz";
+"KEY_INTRODUCTION_FUNCTION" = "Przegląd funkcji";
+"KEY_CAN_CHANGE_COLOR" = "Zmień kolor motywu";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Zmień wygląd timera";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Zmień wibrację timera";
+"KEY_CAN_WIDGET_TIMER" = "Pokaż timer w widżecie";
+"KEY_CAN_CHANGE_DELAY" = "Dostosuj czas rozpoznawania wprowadzania";
+
+"KEY_TIMER" = "Timer";
+"KEY_EDDIT" = "Edytuj";
+"KEY_DONE" = "Gotowe";
+"KEY_START" = "Start";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Godziny";
+"KEY_MINUTES_LONG" = "Minuty";
+"KEY_SECONDS_LONG" = "Sekundy";
+
+"KEY_SETTINGS" = "Ustawienia";
+"KEY_HOWTO" = "Jak używać";
+"KEY_PURCHASED" = "Już zakupiono";
+"KEY_TIMER_VIBRATION" = "Wibracja timera";
+"KEY_VIBRATION" = "Wibracja";
+"KEY_INPUTDELAY" = "Interwał rozpoznawania";
+"KEY_DELAY" = "Interwał";
+"KEY_ERROR_STOREKIT" = "Błąd";
+"KEY_RESTORATION" = "Przywróć";
+
+"KEY_ALEART_24OVER" = "Nie można ustawić timera na ponad 24 godziny.";
+
+"KEY_CANCEL" = "Anuluj";
+"KEY_END" = "Koniec";
+
+"KEY_TIMERSHAPE" = "Wygląd timera";
+"KEY_DESIGHN" = "Wygląd";
+"KEY_CIRCLE" = "Koło";
+"KEY_STAR" = "Gwiazda";
+"KEY_HEART" = "Serce";
+
+"KEY_DEFAULT" = "Domyślny";
+"KEY_WEAK" = "Delikatny";
+"KEY_STRESS" = "Mocny";
+"KEY_STOP" = "Stop";
+"KEY_MIX" = "Mieszany";
+"KEY_RETRY" = "Szybki";
+
+"KEY_PRIMARYCOLOR" = "Kolor motywu";
+"KEY_COLOR" = "Kolor";
+"KEY_CYAN" = "Cyjan";
+"KEY_BLUE" = "Niebieski";
+"KEY_PURPLE" = "Fioletowy";
+"KEY_PINK" = "Różowy";
+"KEY_RED" = "Czerwony";
+"KEY_ORANGE" = "Pomarańczowy";
+"KEY_YELLOW" = "Żółty";
+"KEY_YELLOWGREEN" = "Żółto-zielony";
+"KEY_GREEN" = "Zielony";

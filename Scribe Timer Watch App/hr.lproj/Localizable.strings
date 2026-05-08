@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Croatian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Dobro došli u\nScribe Timer";
+"KEY_INTRODUCTION" = "Jednostavno postavite tajmer.";
+"KEY_ONBORDING1" = "Unesite brojeve.";
+"KEY_ONBORDING2" = "Brojeve unosite jednu znamenku po jednu.";
+"KEY_ONBORDING3" = "Dvaput dodirnite za pokretanje tajmera.";
+"KEY_START_ONBORDING" = "Započni";
+"KEY_NEXT" = "Dalje";
+"KEY_DONTNOW" = "Ne sada";
+"KEY_INTRODUCTION_FUNCTION" = "Predstavljanje funkcija";
+"KEY_CAN_CHANGE_COLOR" = "Promjena boje teme";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Promjena dizajna tajmera";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Promjena vibracije tajmera";
+"KEY_CAN_WIDGET_TIMER" = "Prikaz tajmera u widgetu";
+"KEY_CAN_CHANGE_DELAY" = "Podešavanje vremena prepoznavanja unosa";
+
+"KEY_TIMER" = "Tajmer";
+"KEY_EDDIT" = "Uredi";
+"KEY_DONE" = "Gotovo";
+"KEY_START" = "Pokreni";
+
+"KEY_HOURS" = "Sat";
+"KEY_MINUTES" = "Mi";
+"KEY_SECONDS" = "Se";
+"KEY_HOURS_LONG" = "Sati";
+"KEY_MINUTES_LONG" = "Minute";
+"KEY_SECONDS_LONG" = "Sekunde";
+
+"KEY_SETTINGS" = "Postavke";
+"KEY_HOWTO" = "Kako koristiti";
+"KEY_PURCHASED" = "Već kupljeno";
+"KEY_TIMER_VIBRATION" = "Vibracija tajmera";
+"KEY_VIBRATION" = "Vibracija";
+"KEY_INPUTDELAY" = "Interval prepoznavanja";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Pogreška";
+"KEY_RESTORATION" = "Obnovi";
+
+"KEY_ALEART_24OVER" = "Tajmer dulji od 24 sata nije moguće postaviti.";
+
+"KEY_CANCEL" = "Odustani";
+"KEY_END" = "Završi";
+
+"KEY_TIMERSHAPE" = "Dizajn tajmera";
+"KEY_DESIGHN" = "Dizajn";
+"KEY_CIRCLE" = "Krug";
+"KEY_STAR" = "Zvijezda";
+"KEY_HEART" = "Srce";
+
+"KEY_DEFAULT" = "Zadano";
+"KEY_WEAK" = "Blago";
+"KEY_STRESS" = "Jako";
+"KEY_STOP" = "Zaustavi";
+"KEY_MIX" = "Mješovito";
+"KEY_RETRY" = "Brzo";
+
+"KEY_PRIMARYCOLOR" = "Boja teme";
+"KEY_COLOR" = "Boja";
+"KEY_CYAN" = "Cijan";
+"KEY_BLUE" = "Plava";
+"KEY_PURPLE" = "Ljubičasta";
+"KEY_PINK" = "Ružičasta";
+"KEY_RED" = "Crvena";
+"KEY_ORANGE" = "Narančasta";
+"KEY_YELLOW" = "Žuta";
+"KEY_YELLOWGREEN" = "Žuto-zelena";
+"KEY_GREEN" = "Zelena";

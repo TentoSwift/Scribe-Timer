@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Urdu Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer میں\nخوش آمدید";
+"KEY_INTRODUCTION" = "ٹائمر آسانی سے سیٹ کریں۔";
+"KEY_ONBORDING1" = "اعداد درج کریں۔";
+"KEY_ONBORDING2" = "اعداد ایک ایک ہندسہ کر کے درج کریں۔";
+"KEY_ONBORDING3" = "ٹائمر شروع کرنے کے لیے ڈبل ٹیپ کریں۔";
+"KEY_START_ONBORDING" = "شروع کریں";
+"KEY_NEXT" = "اگلا";
+"KEY_DONTNOW" = "ابھی نہیں";
+"KEY_INTRODUCTION_FUNCTION" = "خصوصیات کا تعارف";
+"KEY_CAN_CHANGE_COLOR" = "تھیم کا رنگ تبدیل کریں";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "ٹائمر کا ڈیزائن تبدیل کریں";
+
+"KEY_CAN_CHANGE_VIBERATION" = "ٹائمر کی وائبریشن تبدیل کریں";
+"KEY_CAN_WIDGET_TIMER" = "ویجٹ میں ٹائمر دکھائیں";
+"KEY_CAN_CHANGE_DELAY" = "ان پٹ شناخت کا وقت ایڈجسٹ کریں";
+
+"KEY_TIMER" = "ٹائمر";
+"KEY_EDDIT" = "ترمیم کریں";
+"KEY_DONE" = "مکمل";
+"KEY_START" = "شروع";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "گھنٹے";
+"KEY_MINUTES_LONG" = "منٹ";
+"KEY_SECONDS_LONG" = "سیکنڈ";
+
+"KEY_SETTINGS" = "ترتیبات";
+"KEY_HOWTO" = "استعمال کا طریقہ";
+"KEY_PURCHASED" = "پہلے ہی خریدا جا چکا ہے";
+"KEY_TIMER_VIBRATION" = "ٹائمر وائبریشن";
+"KEY_VIBRATION" = "وائبریشن";
+"KEY_INPUTDELAY" = "شناخت کا وقفہ";
+"KEY_DELAY" = "وقفہ";
+"KEY_ERROR_STOREKIT" = "خرابی";
+"KEY_RESTORATION" = "بحال کریں";
+
+"KEY_ALEART_24OVER" = "24 گھنٹوں سے زیادہ کا ٹائمر سیٹ نہیں کیا جا سکتا۔";
+
+"KEY_CANCEL" = "منسوخ کریں";
+"KEY_END" = "ختم";
+
+"KEY_TIMERSHAPE" = "ٹائمر ڈیزائن";
+"KEY_DESIGHN" = "ڈیزائن";
+"KEY_CIRCLE" = "دائرہ";
+"KEY_STAR" = "ستارہ";
+"KEY_HEART" = "دل";
+
+"KEY_DEFAULT" = "ڈیفالٹ";
+"KEY_WEAK" = "ہلکا";
+"KEY_STRESS" = "مضبوط";
+"KEY_STOP" = "روکیں";
+"KEY_MIX" = "مخلوط";
+"KEY_RETRY" = "تیز";
+
+"KEY_PRIMARYCOLOR" = "تھیم رنگ";
+"KEY_COLOR" = "رنگ";
+"KEY_CYAN" = "سیان";
+"KEY_BLUE" = "نیلا";
+"KEY_PURPLE" = "جامنی";
+"KEY_PINK" = "گلابی";
+"KEY_RED" = "سرخ";
+"KEY_ORANGE" = "نارنجی";
+"KEY_YELLOW" = "پیلا";
+"KEY_YELLOWGREEN" = "پیلا-سبز";
+"KEY_GREEN" = "سبز";

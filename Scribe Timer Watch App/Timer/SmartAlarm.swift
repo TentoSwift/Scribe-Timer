@@ -262,11 +262,47 @@ enum DefaultPatterns {
             HapticStep(type: .click,   delayToNext: 0.2)
         ]
     )
+    
+    static let retry = CustomNotification(
+        id: "retry",
+        name: "KEY_RETRY",
+        steps: [
+            HapticStep(type: .retry, delayToNext: 0.2),
+            HapticStep(type: .retry,   delayToNext: 0.2),
+            HapticStep(type: .retry,   delayToNext: 0.2),
+            HapticStep(type: .retry,   delayToNext: 0.2)
+        ]
+    )
+    
+    static let stop = CustomNotification(
+        id: "stop",
+        name: "KEY_STOP",
+        steps: [
+            HapticStep(type: .stop, delayToNext: 0.2),
+            HapticStep(type: .stop,   delayToNext: 0.2),
+            HapticStep(type: .stop,   delayToNext: 0.2),
+            HapticStep(type: .stop,   delayToNext: 0.2)
+        ]
+    )
+    
+    static let rr = CustomNotification(
+        id: "rr",
+        name: "KEY_MIX",
+        steps: [
+            HapticStep(type: .success, delayToNext: 0.2),
+            HapticStep(type: .click,   delayToNext: 0.2),
+            HapticStep(type: .start,   delayToNext: 0.2),
+            HapticStep(type: .retry,   delayToNext: 0.2)
+        ]
+    )
 
     static let all: [CustomNotification] = [
         notificationAndClick,
         continuousClick,
-        strongThenWeak
+        strongThenWeak,
+        retry,
+        stop,
+        rr
     ]
 }
 

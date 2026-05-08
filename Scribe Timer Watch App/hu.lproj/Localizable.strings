@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Hungarian Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Üdvözöljük a\nScribe Timer alkalmazásban";
+"KEY_INTRODUCTION" = "Állítson be könnyedén egy időzítőt.";
+"KEY_ONBORDING1" = "Adjon meg számokat.";
+"KEY_ONBORDING2" = "A számokat egyesével írja be.";
+"KEY_ONBORDING3" = "Az időzítő indításához koppintson kétszer.";
+"KEY_START_ONBORDING" = "Kezdés";
+"KEY_NEXT" = "Tovább";
+"KEY_DONTNOW" = "Most nem";
+"KEY_INTRODUCTION_FUNCTION" = "Funkciók bemutatása";
+"KEY_CAN_CHANGE_COLOR" = "Témaszín módosítása";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Az időzítő dizájnjának módosítása";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Az időzítő rezgésének módosítása";
+"KEY_CAN_WIDGET_TIMER" = "Időzítő megjelenítése widgetben";
+"KEY_CAN_CHANGE_DELAY" = "A bevitel felismerési idejének beállítása";
+
+"KEY_TIMER" = "Időzítő";
+"KEY_EDDIT" = "Szerkesztés";
+"KEY_DONE" = "Kész";
+"KEY_START" = "Indítás";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Óra";
+"KEY_MINUTES_LONG" = "Perc";
+"KEY_SECONDS_LONG" = "Másodperc";
+
+"KEY_SETTINGS" = "Beállítások";
+"KEY_HOWTO" = "Használati útmutató";
+"KEY_PURCHASED" = "Már megvásárolva";
+"KEY_TIMER_VIBRATION" = "Időzítő rezgése";
+"KEY_VIBRATION" = "Rezgés";
+"KEY_INPUTDELAY" = "Felismerési időköz";
+"KEY_DELAY" = "Időköz";
+"KEY_ERROR_STOREKIT" = "Hiba";
+"KEY_RESTORATION" = "Visszaállítás";
+
+"KEY_ALEART_24OVER" = "24 óránál hosszabb időzítő nem állítható be.";
+
+"KEY_CANCEL" = "Mégse";
+"KEY_END" = "Befejezés";
+
+"KEY_TIMERSHAPE" = "Időzítő dizájn";
+"KEY_DESIGHN" = "Dizájn";
+"KEY_CIRCLE" = "Kör";
+"KEY_STAR" = "Csillag";
+"KEY_HEART" = "Szív";
+
+"KEY_DEFAULT" = "Alapértelmezett";
+"KEY_WEAK" = "Enyhe";
+"KEY_STRESS" = "Erős";
+"KEY_STOP" = "Leállítás";
+"KEY_MIX" = "Vegyes";
+"KEY_RETRY" = "Gyors";
+
+"KEY_PRIMARYCOLOR" = "Témaszín";
+"KEY_COLOR" = "Szín";
+"KEY_CYAN" = "Cián";
+"KEY_BLUE" = "Kék";
+"KEY_PURPLE" = "Lila";
+"KEY_PINK" = "Rózsaszín";
+"KEY_RED" = "Piros";
+"KEY_ORANGE" = "Narancs";
+"KEY_YELLOW" = "Sárga";
+"KEY_YELLOWGREEN" = "Sárgászöld";
+"KEY_GREEN" = "Zöld";

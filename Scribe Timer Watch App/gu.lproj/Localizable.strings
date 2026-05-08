@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Gujarati Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer માં\nઆપનું સ્વાગત છે";
+"KEY_INTRODUCTION" = "સરળતાથી ટાઈમર સેટ કરો.";
+"KEY_ONBORDING1" = "આંકડા દાખલ કરો.";
+"KEY_ONBORDING2" = "આંકડા એક અંક કરીને દાખલ કરો.";
+"KEY_ONBORDING3" = "ટાઈમર શરૂ કરવા માટે ડબલ ટેપ કરો.";
+"KEY_START_ONBORDING" = "શરૂ કરો";
+"KEY_NEXT" = "આગળ";
+"KEY_DONTNOW" = "હવે નહીં";
+"KEY_INTRODUCTION_FUNCTION" = "વિશેષતાઓનો પરિચય";
+"KEY_CAN_CHANGE_COLOR" = "થીમનો રંગ બદલો";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "ટાઈમરનું ડિઝાઇન બદલો";
+
+"KEY_CAN_CHANGE_VIBERATION" = "ટાઈમરનું વાયબ્રેશન બદલો";
+"KEY_CAN_WIDGET_TIMER" = "વિજેટમાં ટાઈમર બતાવો";
+"KEY_CAN_CHANGE_DELAY" = "ઇનપુટ ઓળખ સમય સમાયોજિત કરો";
+
+"KEY_TIMER" = "ટાઈમર";
+"KEY_EDDIT" = "સંપાદિત કરો";
+"KEY_DONE" = "પૂર્ણ";
+"KEY_START" = "શરૂ";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "કલાક";
+"KEY_MINUTES_LONG" = "મિનિટ";
+"KEY_SECONDS_LONG" = "સેકન્ડ";
+
+"KEY_SETTINGS" = "સેટિંગ્સ";
+"KEY_HOWTO" = "કેવી રીતે ઉપયોગ કરવો";
+"KEY_PURCHASED" = "પહેલેથી ખરીદેલું";
+"KEY_TIMER_VIBRATION" = "ટાઈમરનું વાયબ્રેશન";
+"KEY_VIBRATION" = "વાયબ્રેશન";
+"KEY_INPUTDELAY" = "ઓળખ અંતર";
+"KEY_DELAY" = "અંતર";
+"KEY_ERROR_STOREKIT" = "ભૂલ";
+"KEY_RESTORATION" = "પુનઃસ્થાપિત કરો";
+
+"KEY_ALEART_24OVER" = "24 કલાકથી વધુનો ટાઈમર સેટ કરી શકાતો નથી.";
+
+"KEY_CANCEL" = "રદ કરો";
+"KEY_END" = "સમાપ્ત";
+
+"KEY_TIMERSHAPE" = "ટાઈમર ડિઝાઇન";
+"KEY_DESIGHN" = "ડિઝાઇન";
+"KEY_CIRCLE" = "વર્તુળ";
+"KEY_STAR" = "તારો";
+"KEY_HEART" = "હૃદય";
+
+"KEY_DEFAULT" = "ડિફૉલ્ટ";
+"KEY_WEAK" = "નરમ";
+"KEY_STRESS" = "મજબૂત";
+"KEY_STOP" = "બંધ કરો";
+"KEY_MIX" = "મિશ્ર";
+"KEY_RETRY" = "ઝડપી";
+
+"KEY_PRIMARYCOLOR" = "થીમનો રંગ";
+"KEY_COLOR" = "રંગ";
+"KEY_CYAN" = "સાયન";
+"KEY_BLUE" = "વાદળી";
+"KEY_PURPLE" = "જાંબલી";
+"KEY_PINK" = "ગુલાબી";
+"KEY_RED" = "લાલ";
+"KEY_ORANGE" = "નારંગી";
+"KEY_YELLOW" = "પીળો";
+"KEY_YELLOWGREEN" = "પીળો-લીલો";
+"KEY_GREEN" = "લીલો";

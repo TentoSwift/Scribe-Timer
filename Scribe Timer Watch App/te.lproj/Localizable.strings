@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Telugu Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer కు\nస్వాగతం";
+"KEY_INTRODUCTION" = "టైమర్‌ను సులభంగా సెట్ చేయండి.";
+"KEY_ONBORDING1" = "సంఖ్యలను నమోదు చేయండి.";
+"KEY_ONBORDING2" = "సంఖ్యలను ఒక్కో అంకంగా నమోదు చేయండి.";
+"KEY_ONBORDING3" = "టైమర్ ప్రారంభించడానికి డబుల్ ట్యాప్ చేయండి.";
+"KEY_START_ONBORDING" = "ప్రారంభించండి";
+"KEY_NEXT" = "తర్వాత";
+"KEY_DONTNOW" = "ఇప్పుడు కాదు";
+"KEY_INTRODUCTION_FUNCTION" = "లక్షణాల పరిచయం";
+"KEY_CAN_CHANGE_COLOR" = "థీమ్ రంగును మార్చండి";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "టైమర్ రూపకల్పనను మార్చండి";
+
+"KEY_CAN_CHANGE_VIBERATION" = "టైమర్ వైబ్రేషన్‌ను మార్చండి";
+"KEY_CAN_WIDGET_TIMER" = "విజెట్‌లో టైమర్‌ను చూపించండి";
+"KEY_CAN_CHANGE_DELAY" = "ఇన్‌పుట్ గుర్తింపు సమయాన్ని సర్దుబాటు చేయండి";
+
+"KEY_TIMER" = "టైమర్";
+"KEY_EDDIT" = "సవరించు";
+"KEY_DONE" = "పూర్తైంది";
+"KEY_START" = "ప్రారంభించు";
+
+"KEY_HOURS" = "గ";
+"KEY_MINUTES" = "న";
+"KEY_SECONDS" = "స";
+"KEY_HOURS_LONG" = "గంటలు";
+"KEY_MINUTES_LONG" = "నిమిషాలు";
+"KEY_SECONDS_LONG" = "సెకన్లు";
+
+"KEY_SETTINGS" = "సెట్టింగ్స్";
+"KEY_HOWTO" = "ఎలా ఉపయోగించాలి";
+"KEY_PURCHASED" = "ఇప్పటికే కొనుగోలు చేశారు";
+"KEY_TIMER_VIBRATION" = "టైమర్ వైబ్రేషన్";
+"KEY_VIBRATION" = "వైబ్రేషన్";
+"KEY_INPUTDELAY" = "గుర్తింపు విరామం";
+"KEY_DELAY" = "విరామం";
+"KEY_ERROR_STOREKIT" = "లోపం";
+"KEY_RESTORATION" = "పునరుద్ధరించు";
+
+"KEY_ALEART_24OVER" = "24 గంటలకు మించిన టైమర్‌ను సెట్ చేయలేరు.";
+
+"KEY_CANCEL" = "రద్దు చేయండి";
+"KEY_END" = "ముగించు";
+
+"KEY_TIMERSHAPE" = "టైమర్ రూపకల్పన";
+"KEY_DESIGHN" = "రూపకల్పన";
+"KEY_CIRCLE" = "వృత్తం";
+"KEY_STAR" = "నక్షత్రం";
+"KEY_HEART" = "హృదయం";
+
+"KEY_DEFAULT" = "డిఫాల్ట్";
+"KEY_WEAK" = "సున్నితమైన";
+"KEY_STRESS" = "బలమైన";
+"KEY_STOP" = "ఆపండి";
+"KEY_MIX" = "మిశ్రమం";
+"KEY_RETRY" = "త్వరిత";
+
+"KEY_PRIMARYCOLOR" = "థీమ్ రంగు";
+"KEY_COLOR" = "రంగు";
+"KEY_CYAN" = "సియాన్";
+"KEY_BLUE" = "నీలం";
+"KEY_PURPLE" = "ఊదా";
+"KEY_PINK" = "గులాబీ";
+"KEY_RED" = "ఎరుపు";
+"KEY_ORANGE" = "నారింజ";
+"KEY_YELLOW" = "పసుపు";
+"KEY_YELLOWGREEN" = "పసుపు-ఆకుపచ్చ";
+"KEY_GREEN" = "ఆకుపచ్చ";

@@ -3,10 +3,24 @@
   ScribbleTimer
 
   Created by 石野天斗 on 2026/02/11.
-  
 */
 
 "KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Benvenuto in\nScribe Timer";
+"KEY_INTRODUCTION" = "Imposta il timer in modo semplice.";
+"KEY_ONBORDING1" = "Inserisci i numeri.";
+"KEY_ONBORDING2" = "Inserisci le cifre una alla volta.";
+"KEY_ONBORDING3" = "Tocca due volte per avviare il timer.";
+"KEY_START_ONBORDING" = "Inizia";
+"KEY_NEXT" = "Avanti";
+"KEY_DONTNOW" = "Non ora";
+"KEY_INTRODUCTION_FUNCTION" = "Funzioni";
+"KEY_CAN_CHANGE_COLOR" = "Cambia il colore del tema";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Modifica del design del timer";
+"KEY_ALARM_VIBRATION" = "Vibrazione dell'allarme";
+"KEY_CAN_WIDGET_TIMER" = "Mostra il timer nel widget";
+"KEY_CAN_CHANGE_DELAY" = "Regola il tempo di riconoscimento";
 
 "KEY_TIMER" = "Timer";
 "KEY_EDDIT" = "Modifica";
@@ -16,10 +30,17 @@
 "KEY_HOURS" = "H";
 "KEY_MINUTES" = "M";
 "KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Ore";
+"KEY_MINUTES_LONG" = "Minuti";
+"KEY_SECONDS_LONG" = "Secondi";
 
 "KEY_SETTINGS" = "Impostazioni";
-"KEY_ALARM_VIBRATION" = "Vibrazione dell'allarme";
-
+"KEY_HOWTO" = "Come usare";
+"KEY_PURCHASED" = "Già acquistato";
+"KEY_TIMER_VIBRATION" = "Vibrazione dell'allarme";
+"KEY_VIBRATION" = "Vibrazione";
+"KEY_INPUTDELAY" = "Ritardo di riconoscimento";
+"KEY_DELAY" = "Ritardo";
 "KEY_ERROR_STOREKIT" = "Errore";
 "KEY_RESTORATION" = "Ripristina";
 
@@ -29,9 +50,17 @@
 "KEY_END" = "Termina";
 
 "KEY_TIMERSHAPE" = "Design del timer";
+"KEY_DESIGHN" = "Design";
 "KEY_CIRCLE" = "Cerchio";
 "KEY_STAR" = "Stella";
 "KEY_HEART" = "Cuore";
+
+"KEY_DEFAULT" = "Predefinito";
+"KEY_WEAK" = "Soffice";
+"KEY_STRESS" = "Forte";
+"KEY_STOP" = "Stop";
+"KEY_MIX" = "Mix";
+"KEY_RETRY" = "Rapido";
 
 "KEY_PRIMARYCOLOR" = "Colore tema";
 "KEY_COLOR" = "Colore";
@@ -42,5 +71,5 @@
 "KEY_RED" = "Rosso";
 "KEY_ORANGE" = "Arancione";
 "KEY_YELLOW" = "Giallo";
-"KEY_YELLOWGREEN" = "Verde giallastro";
+"KEY_YELLOWGREEN" = "Giallo-verde";
 "KEY_GREEN" = "Verde";

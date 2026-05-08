@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Kannada Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer ಗೆ\nಸ್ವಾಗತ";
+"KEY_INTRODUCTION" = "ಟೈಮರ್ ಅನ್ನು ಸುಲಭವಾಗಿ ಹೊಂದಿಸಿ.";
+"KEY_ONBORDING1" = "ಸಂಖ್ಯೆಗಳನ್ನು ನಮೂದಿಸಿ.";
+"KEY_ONBORDING2" = "ಸಂಖ್ಯೆಗಳನ್ನು ಒಂದೊಂದು ಅಂಕಿಯಾಗಿ ನಮೂದಿಸಿ.";
+"KEY_ONBORDING3" = "ಟೈಮರ್ ಪ್ರಾರಂಭಿಸಲು ಡಬಲ್ ಟ್ಯಾಪ್ ಮಾಡಿ.";
+"KEY_START_ONBORDING" = "ಪ್ರಾರಂಭಿಸಿ";
+"KEY_NEXT" = "ಮುಂದೆ";
+"KEY_DONTNOW" = "ಈಗ ಬೇಡ";
+"KEY_INTRODUCTION_FUNCTION" = "ವೈಶಿಷ್ಟ್ಯಗಳ ಪರಿಚಯ";
+"KEY_CAN_CHANGE_COLOR" = "ಥೀಮ್ ಬಣ್ಣವನ್ನು ಬದಲಿಸಿ";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "ಟೈಮರ್ ವಿನ್ಯಾಸವನ್ನು ಬದಲಿಸಿ";
+
+"KEY_CAN_CHANGE_VIBERATION" = "ಟೈಮರ್ ಕಂಪನೆಯನ್ನು ಬದಲಿಸಿ";
+"KEY_CAN_WIDGET_TIMER" = "ವಿಜెట్‌ನಲ್ಲಿ ಟೈಮರ್ ತೋರಿಸಿ";
+"KEY_CAN_CHANGE_DELAY" = "ಇನ್‌ಪುಟ್ ಗುರುತಿಸುವ ಸಮಯವನ್ನು ಹೊಂದಿಸಿ";
+
+"KEY_TIMER" = "ಟೈಮರ್";
+"KEY_EDDIT" = "ಸಂಪಾದಿಸಿ";
+"KEY_DONE" = "ಪೂರ್ಣ";
+"KEY_START" = "ಪ್ರಾರಂಭ";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "ಗಂಟೆಗಳು";
+"KEY_MINUTES_LONG" = "ನಿಮಿಷಗಳು";
+"KEY_SECONDS_LONG" = "ಸೆಕೆಂಡುಗಳು";
+
+"KEY_SETTINGS" = "ಸೆಟ್ಟಿಂಗ್ಗಳು";
+"KEY_HOWTO" = "ಹೇಗೆ ಬಳಸುವುದು";
+"KEY_PURCHASED" = "ಈಗಾಗಲೇ ಖರೀದಿಸಲಾಗಿದೆ";
+"KEY_TIMER_VIBRATION" = "ಟೈಮರ್ ಕಂಪನ";
+"KEY_VIBRATION" = "ಕಂಪನ";
+"KEY_INPUTDELAY" = "ಗುರುತಿಸುವ ಮಧ್ಯಂತರ";
+"KEY_DELAY" = "ಮಧ್ಯಂತರ";
+"KEY_ERROR_STOREKIT" = "ದೋಷ";
+"KEY_RESTORATION" = "ಪುನಃಸ್ಥಾಪಿಸಿ";
+
+"KEY_ALEART_24OVER" = "24 ಗಂಟೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ಟೈಮರ್ ಹೊಂದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.";
+
+"KEY_CANCEL" = "ರದ್ದುಮಾಡಿ";
+"KEY_END" = "ಅಂತ್ಯ";
+
+"KEY_TIMERSHAPE" = "ಟೈಮರ್ ವಿನ್ಯಾಸ";
+"KEY_DESIGHN" = "ವಿನ್ಯಾಸ";
+"KEY_CIRCLE" = "ವೃತ್ತ";
+"KEY_STAR" = "ನಕ್ಷತ್ರ";
+"KEY_HEART" = "ಹೃದಯ";
+
+"KEY_DEFAULT" = "ಡೀಫಾಲ್ಟ್";
+"KEY_WEAK" = "ಮೃದು";
+"KEY_STRESS" = "ಬಲವಾದ";
+"KEY_STOP" = "ನಿಲ್ಲಿಸಿ";
+"KEY_MIX" = "ಮಿಶ್ರ";
+"KEY_RETRY" = "ವೇಗವಾದ";
+
+"KEY_PRIMARYCOLOR" = "ಥೀಮ್ ಬಣ್ಣ";
+"KEY_COLOR" = "ಬಣ್ಣ";
+"KEY_CYAN" = "ಸಯಾನ್";
+"KEY_BLUE" = "ನೀಲಿ";
+"KEY_PURPLE" = "ಜಾಂಬಳಿಯ";
+"KEY_PINK" = "ಗುಲಾಬಿ";
+"KEY_RED" = "ಕೆಂಪು";
+"KEY_ORANGE" = "ಕಿತ್ತಳೆ";
+"KEY_YELLOW" = "ಹಳದಿ";
+"KEY_YELLOWGREEN" = "ಹಳದಿ-ಹಸಿರು";
+"KEY_GREEN" = "ಹಸಿರು";

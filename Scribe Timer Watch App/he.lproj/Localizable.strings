@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Hebrew Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "ברוכים הבאים ל־\nScribe Timer";
+"KEY_INTRODUCTION" = "הגדירו טיימר בקלות.";
+"KEY_ONBORDING1" = "הזינו מספרים.";
+"KEY_ONBORDING2" = "הזינו את המספרים ספרה אחר ספרה.";
+"KEY_ONBORDING3" = "הקישו פעמיים כדי להתחיל את הטיימר.";
+"KEY_START_ONBORDING" = "התחלה";
+"KEY_NEXT" = "הבא";
+"KEY_DONTNOW" = "לא עכשיו";
+"KEY_INTRODUCTION_FUNCTION" = "הצגת תכונות";
+"KEY_CAN_CHANGE_COLOR" = "שינוי צבע הערכה";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "שינוי עיצוב הטיימר";
+
+"KEY_CAN_CHANGE_VIBERATION" = "שינוי הרטט של הטיימר";
+"KEY_CAN_WIDGET_TIMER" = "הצגת הטיימר בווידג׳ט";
+"KEY_CAN_CHANGE_DELAY" = "התאמת זמן זיהוי הקלט";
+
+"KEY_TIMER" = "טיימר";
+"KEY_EDDIT" = "עריכה";
+"KEY_DONE" = "סיום";
+"KEY_START" = "התחל";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "M";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "שעות";
+"KEY_MINUTES_LONG" = "דקות";
+"KEY_SECONDS_LONG" = "שניות";
+
+"KEY_SETTINGS" = "הגדרות";
+"KEY_HOWTO" = "אופן השימוש";
+"KEY_PURCHASED" = "נרכש כבר";
+"KEY_TIMER_VIBRATION" = "רטט הטיימר";
+"KEY_VIBRATION" = "רטט";
+"KEY_INPUTDELAY" = "מרווח זיהוי";
+"KEY_DELAY" = "מרווח";
+"KEY_ERROR_STOREKIT" = "שגיאה";
+"KEY_RESTORATION" = "שחזור";
+
+"KEY_ALEART_24OVER" = "לא ניתן להגדיר טיימר ליותר מ־24 שעות.";
+
+"KEY_CANCEL" = "ביטול";
+"KEY_END" = "סיום";
+
+"KEY_TIMERSHAPE" = "עיצוב הטיימר";
+"KEY_DESIGHN" = "עיצוב";
+"KEY_CIRCLE" = "עיגול";
+"KEY_STAR" = "כוכב";
+"KEY_HEART" = "לב";
+
+"KEY_DEFAULT" = "ברירת מחדל";
+"KEY_WEAK" = "עדין";
+"KEY_STRESS" = "חזק";
+"KEY_STOP" = "עצור";
+"KEY_MIX" = "מעורב";
+"KEY_RETRY" = "מהיר";
+
+"KEY_PRIMARYCOLOR" = "צבע הערכה";
+"KEY_COLOR" = "צבע";
+"KEY_CYAN" = "ציאן";
+"KEY_BLUE" = "כחול";
+"KEY_PURPLE" = "סגול";
+"KEY_PINK" = "ורוד";
+"KEY_RED" = "אדום";
+"KEY_ORANGE" = "כתום";
+"KEY_YELLOW" = "צהוב";
+"KEY_YELLOWGREEN" = "צהוב-ירוק";
+"KEY_GREEN" = "ירוק";

@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Kazakh Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Scribe Timer-ге\nқош келдіңіз";
+"KEY_INTRODUCTION" = "Таймерді оңай орнатыңыз.";
+"KEY_ONBORDING1" = "Сандарды енгізіңіз.";
+"KEY_ONBORDING2" = "Сандарды бір таңбадан енгізіңіз.";
+"KEY_ONBORDING3" = "Таймерді бастау үшін екі рет түртіңіз.";
+"KEY_START_ONBORDING" = "Бастау";
+"KEY_NEXT" = "Келесі";
+"KEY_DONTNOW" = "Қазір емес";
+"KEY_INTRODUCTION_FUNCTION" = "Мүмкіндіктерге шолу";
+"KEY_CAN_CHANGE_COLOR" = "Тақырып түсін өзгерту";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Таймер дизайнын өзгерту";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Таймер дірілін өзгерту";
+"KEY_CAN_WIDGET_TIMER" = "Таймерді виджетте көрсету";
+"KEY_CAN_CHANGE_DELAY" = "Енгізуді тану уақытын реттеу";
+
+"KEY_TIMER" = "Таймер";
+"KEY_EDDIT" = "Өңдеу";
+"KEY_DONE" = "Дайын";
+"KEY_START" = "Бастау";
+
+"KEY_HOURS" = "H";
+"KEY_MINUTES" = "М";
+"KEY_SECONDS" = "S";
+"KEY_HOURS_LONG" = "Сағат";
+"KEY_MINUTES_LONG" = "Минут";
+"KEY_SECONDS_LONG" = "Секунд";
+
+"KEY_SETTINGS" = "Баптаулар";
+"KEY_HOWTO" = "Қалай пайдалану";
+"KEY_PURCHASED" = "Сатып алынған";
+"KEY_TIMER_VIBRATION" = "Таймер дірілі";
+"KEY_VIBRATION" = "Діріл";
+"KEY_INPUTDELAY" = "Тану аралығы";
+"KEY_DELAY" = "Аралық";
+"KEY_ERROR_STOREKIT" = "Қате";
+"KEY_RESTORATION" = "Қалпына келтіру";
+
+"KEY_ALEART_24OVER" = "24 сағаттан ұзақ таймер орнатуға болмайды.";
+
+"KEY_CANCEL" = "Бас тарту";
+"KEY_END" = "Аяқтау";
+
+"KEY_TIMERSHAPE" = "Таймер дизайны";
+"KEY_DESIGHN" = "Дизайн";
+"KEY_CIRCLE" = "Шеңбер";
+"KEY_STAR" = "Жұлдыз";
+"KEY_HEART" = "Жүрек";
+
+"KEY_DEFAULT" = "Әдепкі";
+"KEY_WEAK" = "Жұмсақ";
+"KEY_STRESS" = "Күшті";
+"KEY_STOP" = "Тоқтату";
+"KEY_MIX" = "Аралас";
+"KEY_RETRY" = "Жылдам";
+
+"KEY_PRIMARYCOLOR" = "Тақырып түсі";
+"KEY_COLOR" = "Түс";
+"KEY_CYAN" = "Көгілдір";
+"KEY_BLUE" = "Көк";
+"KEY_PURPLE" = "Күлгін";
+"KEY_PINK" = "Қызғылт";
+"KEY_RED" = "Қызыл";
+"KEY_ORANGE" = "Қызғылт сары";
+"KEY_YELLOW" = "Сары";
+"KEY_YELLOWGREEN" = "Сары-жасыл";
+"KEY_GREEN" = "Жасыл";

@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Arabic Localization
+*/
+
+"KEY_SCRIBETIMER" = "سكرايب تايمر";
+
+"KEY_HELLO_SCRIBETIMER" = "مرحبًا بك في\nScribe Timer";
+"KEY_INTRODUCTION" = "لنقم بضبط المؤقت بسهولة.";
+"KEY_ONBORDING1" = "أدخل الأرقام.";
+"KEY_ONBORDING2" = "أدخل الأرقام رقمًا واحدًا في كل مرة.";
+"KEY_ONBORDING3" = "اضغط مرتين لبدء المؤقت.";
+"KEY_START_ONBORDING" = "ابدأ";
+"KEY_NEXT" = "التالي";
+"KEY_DONTNOW" = "ليس الآن";
+"KEY_INTRODUCTION_FUNCTION" = "مقدمة الميزات";
+"KEY_CAN_CHANGE_COLOR" = "تغيير لون السمة";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "تغيير تصميم المؤقت";
+
+"KEY_CAN_CHANGE_VIBERATION" = "تغيير اهتزاز المؤقت";
+"KEY_CAN_WIDGET_TIMER" = "عرض المؤقت في الويدجت";
+"KEY_CAN_CHANGE_DELAY" = "تعديل زمن التعرف على الإدخال";
+
+"KEY_TIMER" = "المؤقت";
+"KEY_EDDIT" = "تعديل";
+"KEY_DONE" = "تم";
+"KEY_START" = "ابدأ";
+
+"KEY_HOURS" = "س";
+"KEY_MINUTES" = "د";
+"KEY_SECONDS" = "ث";
+"KEY_HOURS_LONG" = "ساعات";
+"KEY_MINUTES_LONG" = "دقائق";
+"KEY_SECONDS_LONG" = "ثوانٍ";
+
+"KEY_SETTINGS" = "الإعدادات";
+"KEY_HOWTO" = "طريقة الاستخدام";
+"KEY_PURCHASED" = "تم الشراء بالفعل";
+"KEY_TIMER_VIBRATION" = "اهتزاز المؤقت";
+"KEY_VIBRATION" = "اهتزاز";
+"KEY_INPUTDELAY" = "يشير فاصل التعرف إلى الوقت بين رسم الرقم وإدخاله واختفائه من الشاشة.";
+"KEY_DELAY" = "الفاصل";
+"KEY_ERROR_STOREKIT" = "خطأ";
+"KEY_RESTORATION" = "استعادة";
+
+"KEY_ALEART_24OVER" = "لا يمكن ضبط مؤقت يتجاوز 24 ساعة.";
+
+"KEY_CANCEL" = "إلغاء";
+"KEY_END" = "إنهاء";
+
+"KEY_TIMERSHAPE" = "تصميم المؤقت";
+"KEY_DESIGHN" = "تصميم";
+"KEY_CIRCLE" = "دائرة";
+"KEY_STAR" = "نجمة";
+"KEY_HEART" = "قلب";
+
+"KEY_DEFAULT" = "افتراضي";
+"KEY_WEAK" = "خفيف";
+"KEY_STRESS" = "قوي";
+"KEY_STOP" = "إيقاف";
+"KEY_MIX" = "مختلط";
+"KEY_RETRY" = "سريع";
+
+"KEY_PRIMARYCOLOR" = "لون السمة";
+"KEY_COLOR" = "لون";
+"KEY_CYAN" = "سماوي";
+"KEY_BLUE" = "أزرق";
+"KEY_PURPLE" = "أرجواني";
+"KEY_PINK" = "وردي";
+"KEY_RED" = "أحمر";
+"KEY_ORANGE" = "برتقالي";
+"KEY_YELLOW" = "أصفر";
+"KEY_YELLOWGREEN" = "أصفر مخضر";
+"KEY_GREEN" = "أخضر";

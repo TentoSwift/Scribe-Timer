@@ -1,0 +1,76 @@
+/*
+  Localizable.strings
+  ScribbleTimer
+
+  Catalan Localization
+*/
+
+"KEY_SCRIBETIMER" = "Scribe Timer";
+
+"KEY_HELLO_SCRIBETIMER" = "Benvingut a\nScribe Timer";
+"KEY_INTRODUCTION" = "Configura fàcilment el temporitzador.";
+"KEY_ONBORDING1" = "Introdueix números.";
+"KEY_ONBORDING2" = "Introdueix els números dígit a dígit.";
+"KEY_ONBORDING3" = "Fes doble toc per iniciar el temporitzador.";
+"KEY_START_ONBORDING" = "Comença";
+"KEY_NEXT" = "Següent";
+"KEY_DONTNOW" = "Ara no";
+"KEY_INTRODUCTION_FUNCTION" = "Presentació de funcions";
+"KEY_CAN_CHANGE_COLOR" = "Canviar el color del tema";
+"KEY_CAN_CHANGE_TIMERDESIGHN" = "Canviar el disseny del temporitzador";
+
+"KEY_CAN_CHANGE_VIBERATION" = "Canviar la vibració del temporitzador";
+"KEY_CAN_WIDGET_TIMER" = "Mostrar el temporitzador al giny";
+"KEY_CAN_CHANGE_DELAY" = "Ajustar el temps de reconeixement d’entrada";
+
+"KEY_TIMER" = "Temporitzador";
+"KEY_EDDIT" = "Editar";
+"KEY_DONE" = "Fet";
+"KEY_START" = "Inicia";
+
+"KEY_HOURS" = "h";
+"KEY_MINUTES" = "m";
+"KEY_SECONDS" = "s";
+"KEY_HOURS_LONG" = "Hores";
+"KEY_MINUTES_LONG" = "Minuts";
+"KEY_SECONDS_LONG" = "Segons";
+
+"KEY_SETTINGS" = "Configuració";
+"KEY_HOWTO" = "Com s’utilitza";
+"KEY_PURCHASED" = "Ja comprat";
+"KEY_TIMER_VIBRATION" = "Vibració del temporitzador";
+"KEY_VIBRATION" = "Vibració";
+"KEY_INPUTDELAY" = "El retard de reconeixement fa referència al temps entre dibuixar un número, que s’introdueixi i que desaparegui de la pantalla.";
+"KEY_DELAY" = "Interval";
+"KEY_ERROR_STOREKIT" = "Error";
+"KEY_RESTORATION" = "Restaurar";
+
+"KEY_ALEART_24OVER" = "No es pot configurar un temporitzador de més de 24 hores.";
+
+"KEY_CANCEL" = "Cancel·la";
+"KEY_END" = "Fi";
+
+"KEY_TIMERSHAPE" = "Disseny del temporitzador";
+"KEY_DESIGHN" = "Disseny";
+"KEY_CIRCLE" = "Cercle";
+"KEY_STAR" = "Estrella";
+"KEY_HEART" = "Cor";
+
+"KEY_DEFAULT" = "Per defecte";
+"KEY_WEAK" = "Suau";
+"KEY_STRESS" = "Fort";
+"KEY_STOP" = "Atura";
+"KEY_MIX" = "Mixt";
+"KEY_RETRY" = "Ràpid";
+
+"KEY_PRIMARYCOLOR" = "Color del tema";
+"KEY_COLOR" = "Color";
+"KEY_CYAN" = "Cian";
+"KEY_BLUE" = "Blau";
+"KEY_PURPLE" = "Porpra";
+"KEY_PINK" = "Rosa";
+"KEY_RED" = "Vermell";
+"KEY_ORANGE" = "Taronja";
+"KEY_YELLOW" = "Groc";
+"KEY_YELLOWGREEN" = "Groc verdós";
+"KEY_GREEN" = "Verd";

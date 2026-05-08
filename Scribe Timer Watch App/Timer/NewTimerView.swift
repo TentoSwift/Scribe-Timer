@@ -23,11 +23,10 @@ struct NewTimerView: View {
     @EnvironmentObject var runtime: ExtendedRuntimeController
     @EnvironmentObject var screenSizeStore: ScreenSizeStore
     @Environment(\.dismiss) private var dismiss
-    @AppStorage("timerHistory") private var timerHistoryData: Data = Data()
-    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .blue
+    @AppStorage("timerHistory", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var timerHistoryData = Data()
+    @AppStorage("tintColor", store: UserDefaults(suiteName: "group.com.tento.scribe.timer")) private var tintColor: TintColor = .orange
     @State private var isPresentedSettingsView: Bool = false
     @State private var isPresentedTimerView: Bool = false
-    // 初期値は 1 分後
     @State private var date = Calendar.current.date(byAdding: .minute, value: 1, to: Date())!
    
     @State private var DisplayTime: DisplayTimer = DisplayTimer(hour: 0, minutes: 1, seconds: 0)
@@ -73,7 +72,7 @@ struct NewTimerView: View {
                                         .font(.title2)
                                 }
                             } label: {
-                                Text("KEY_HOURS")
+                                Text("KEY_HOURS_LONG")
                                     .foregroundStyle(.green)
                             }
                             .pickerStyle(.wheel)
@@ -89,7 +88,7 @@ struct NewTimerView: View {
                                         .font(.title2)
                                 }
                             } label: {
-                                Text("KEY_MINUTES")
+                                Text("KEY_MINUTES_LONG")
                                     .foregroundStyle(.green)
                             }
                             .pickerStyle(.wheel)
@@ -104,7 +103,7 @@ struct NewTimerView: View {
                                         .font(.title2)
                                 }
                             } label: {
-                                Text("KEY_SECONDS")
+                                Text("KEY_SECONDS_LONG")
                                     .foregroundStyle(.green)
                             }
                             .pickerStyle(.wheel)
@@ -142,12 +141,6 @@ struct NewTimerView: View {
                           
                         }
                     }
-            .navigationTitle {
-                Text("")
-            }
-            .sheet(isPresented: $isPresentedSettingsView) {
-                SettingsView()
-            }
         }
     }
     private func loadTimerHistory() -> [Int] {
@@ -162,7 +155,7 @@ struct NewTimerView: View {
     }
 
     // 追加：「開始」時に記録
-    private func recordTimerStart(totalSeconds: Int, maxCount: Int = 12) {
+    private func recordTimerStart(totalSeconds: Int, maxCount: Int = 4) {
         let templateTimer: [Int] = [60, 180, 300, 600, 900]
         var arr = loadTimerHistory()
         
@@ -172,7 +165,7 @@ struct NewTimerView: View {
            }
         
         if let i = arr.firstIndex(of: totalSeconds) {
-            arr.remove(at: i)        // 既存は削除して…
+            arr.remove(at: i)  
         }
         
         arr.insert(totalSeconds, at: 0) // 先頭に追加（最新を前へ）
