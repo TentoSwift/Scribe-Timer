@@ -35,4 +35,4 @@ Scribe Timer/
 
 ## ライセンス
 
-© 石野天斗
+© 2026 Tento Ishino
